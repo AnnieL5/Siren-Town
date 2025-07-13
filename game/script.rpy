@@ -1,42 +1,4 @@
-﻿# The script of the game goes in this file.
-
-# define a = Character('Andelie', color="#9c7b28")
-# define m = Character('Me', color="#c8c8ff")
-
-# label start:
-
-#     scene bg 1 1
-#     with fade
-
-#     "You wake up from the jolt and find yourself in a crowded van. A drilled coin slides out of your shirt - it's your game manager."
-
-#     "The panel pops up:\n Health 100. Physical Strength 80. Attack 30. Intelligence 89. Luck 0. Spirit 100 \n(If the Spirit value is less than 60, hallucinations will occur, and if it reaches zero, it will turn into a monster)"
-
-#     m "You looked out the window at the desolate scenery. \"Where are we going? This place is too remote.\""
-
-#     show andelie
-
-    # a "Siren Town is the only seaside town in history where the remains of a siren have been found. In history, many people claimed that they had seen the sirens here, or heard the beautiful singing of sirens and mermaids in the waves, and also saw these strange-looking mermaids feasting on human corpses on the dark reefs..."
-    
-    # a "Those tourists who came to Siren Town mysteriously disappeared! Last month, twelve tourists disappeared completely in Siren Town! The police searched everywhere but to no avail, and no one has ever seen them leave Siren Town..."
-
-    # a "\"The police have been organizing a salvage operation for a month, but they haven't found any bodies. Even if they really fell into the sea, this is not normal...\" \"Unless their bodies were eaten by Sirens, in which case it is also possible that the police couldn't salvage them...\""
-
-    # "Siren Town is a town that relies on fishing and helping to salvage sunken ships. It has always been remote and dilapidated. It was not until the new mayor took a different approach and used the rumor of mermaids to attract tourists that Siren Town developed through tourism."
-
-    # "But since last month, tourists have been in trouble. These tourists did not fall into the water as Andre said. Some of them even disappeared in different corners of Siren Town without anyone noticing before they had time to go to the beach. For example, one tourist checked into the hotel that night and disappeared the next morning. The door was closed and no one saw him go out. The bed in the room was still warm, but the person was gone."
-
-#     show sylvie green smile
-#     with dissolve
-
-#     "She turns to me and smiles. She looks so welcoming that I feel my nervousness melt away."
-
-#     "I'll ask her...!"
-
-#     m "Ummm... Will you..."
-
-#     m "Will you be my artist for a visual novel?"
-
+﻿
 
 define b = Character('Bai Liu', color="#aaffcc")
 define l = Character('Lucy', color="#ff99cc")
@@ -125,7 +87,7 @@ label investigate_wax_figure:
         "Continue to observe and look for more clues":
             b "I'll keep observing the wax figure for more clues."
             "You find that the wax figures are actually made of a special material that can mimic human movement."
-            jump wax_figure_clue
+            jump interact_wax_figure
         "Gather your teammates to discuss countermeasures":
             b "I need to gather my teammates to discuss how to deal with the wax figure."
             jump continue_journey2
@@ -214,34 +176,3 @@ label true_ending:
     "True ending"
 
     return
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-# define e = Character("Eileen")
-
-
-# # The game starts here.
-
-# label start:
-
-#     # Show a background. This uses a placeholder by default, but you can
-#     # add a file (named either "bg room.png" or "bg room.jpg") to the
-#     # images directory to show it.
-
-#     scene bg room
-
-#     # This shows a character sprite. A placeholder is used, but you can
-#     # replace it by adding a file named "eileen happy.png" to the images
-#     # directory.
-
-#     show eileen happy
-
-#     # These display lines of dialogue.
-
-#     e "You've created a new Ren'Py game."
-
-#     e "Once you add a story, pictures, and music, you can release it to the world!"
-
-#     # This ends the game.
-
-#     return
