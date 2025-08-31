@@ -11,6 +11,12 @@ init offset = -2
 init python:
     gui.init(1920, 1080)
 
+
+# init:
+#     style.default.font = "YRDZST_Medium.ttf"
+#     style.default.language = "eastasian"
+
+
 ## Enable checks for invalid or unstable properties in screens or transforms
 define config.check_conflicting_properties = True
 
@@ -57,13 +63,14 @@ define gui.interface_text_color = '#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+# define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "YRDZST_Medium.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "YRDZST_Medium.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "YRDZST_Medium.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 33
@@ -410,7 +417,8 @@ define gui.nvl_button_xalign = 0.0
 ## for most languages. A list of available values can be found at https://
 ## www.renpy.org/doc/html/style_properties.html#style-property-language
 
-define gui.language = "unicode"
+# define gui.language = "unicode"
+define gui.language = "eastasian"
 
 
 ################################################################################
