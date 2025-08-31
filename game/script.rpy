@@ -36,7 +36,7 @@ label start:
 
     board "【游戏副本名称：《塞壬小镇》】\n【等级：一级（玩家死亡率小于百分之五十的游戏为一级游戏）】\n【模式：单人模式】\n【综合说明：这是一款刺激的动作向和解密向相结合的游戏，在玩家中大受欢迎，但似乎对新人不是很友好，新人死亡率非常高】"
     
-    scene bg 1 1 // edit afterwards
+    # scene bg 1 1 // edit afterwards
 
     "白柳是侧睡在一辆面包车的最后一排里，很挤很狭窄，他翻身都很艰难，他一动就看到有个项链从自己的脖子从落了出去，但他现在身上的衣服都和进入游戏之前没有区别，白衬衫黑裤子，典型的上班族社畜的日常穿搭，只有这根项链是多出来的东西。"
 
@@ -67,10 +67,11 @@ label start:
     board "【npc名称：安德烈】\n【人物简介：你的情敌，喜欢露西但被露西拒绝了，对你很有敌意，之前你和他打赌要在世界上最危险的地方守护露西，来证明你对露西的爱，于是你们一行人驱车来到塞壬镇，但你因为胆小在上车之前大哭了一场，后悔不想上车，是被他强硬地拉上车的】"
 
     menu:
-        "“塞壬镇，是个什么地方？”"
+        "“塞壬镇，是个什么地方？”":
             bl "白柳已经连续看到塞壬镇这个地名两次了，他忽视安德烈对他的嘲讽，询问：“塞壬镇，是个什么地方？”"
             jump siren_info
-        "..."
+        "...":
+            jump second
 
 label siren_info:
     "安德烈又是冷哼一声，刚想开口继续嘲讽白柳，一道絮絮叨叨连绵不绝的小声念叨就打断了安德烈的嘲讽："
@@ -209,14 +210,14 @@ label second:
 
     lucy "白柳一行人靠过去，这人忽然动了起来的时候，甚至把露西吓了一跳，她以为是雕像动起来了，捂脸惊叫道：“哦我的上帝！你白得就像是一尊雕像！”"
 
-    fd = "“抱歉。”前台看着他们抱歉道，“我有白化病，吓到你们了不好意思，白先生是吗？您一周前预定了四个房间，预定了一周的时间，费用以及付了，房卡在这里，祝您□□愉快。”"
+    fd "“抱歉。”前台看着他们抱歉道，“我有白化病，吓到你们了不好意思，白先生是吗？您一周前预定了四个房间，预定了一周的时间，费用以及付了，房卡在这里，祝您□□愉快。”"
 
     "白柳接过房卡，他看到四个房间的时候，其实是松了一口气的。"
 
     "他不太想和让自己【没有成功】的露西女士睡一间房，露西似乎也明白了这一点，这位刚刚还受到惊吓的女人很快就恢复了，她用一种【哦！宝贝！你可真是太害羞了！】的眼神调侃地看着白柳，被白柳面色不改地忽视过去了。"
 
     menu:
-        "“我想问一下，你们这个酒店里，怎么这么多人鱼雕像？”"
+        "“我想问一下，你们这个酒店里，怎么这么多人鱼雕像？”":
             bl "“我想问一下，你们这个酒店里，怎么这么多人鱼雕像？”"
 
             fd "前台语调平缓地回答：“先生，人鱼给了我们一切，塞壬小镇本来一无所有，自从打捞上人鱼的尸骸，来这里的旅游人越来越多了，我们获得了金钱，拥有了一切，所以我们很感激人鱼，在这里，家家户户都有很多人鱼雕像，这对于我们来说就像是护身符一样的存在。”"
@@ -240,7 +241,7 @@ label second:
             "估计这个人鱼雕像还有【虫】和【蝶】状态，这两种状态白柳感觉上应该比【蛹】和【茧】的攻击性要强，目前看来，【蛹】和【茧】状态的人鱼雕像没有主动攻击人的意向，不过也有可能是【攻击】的方式是白柳意识不到的那种，比如精神污染之类的，他觉得满大厅的人鱼雕像一直盯着玩家，就挺精神污染的。"
 
             jump third
-        "分发了房卡"
+        "分发了房卡":
             jump third
 
 label third:
@@ -433,145 +434,145 @@ label third:
 
 
 
-    b "Where are we going? This place looks so remote."
-    l "Hey, sweetheart, you're finally awake!"
-    a "Too late to back out now, Bai Liu. We're already on our way to Siren Town."
-    menu:
-        "Tell me more about Siren Town":
-            b "What is Siren Town?"
-            jump siren_info
+#     b "Where are we going? This place looks so remote."
+#     l "Hey, sweetheart, you're finally awake!"
+#     a "Too late to back out now, Bai Liu. We're already on our way to Siren Town."
+#     menu:
+#         "Tell me more about Siren Town":
+#             b "What is Siren Town?"
+#             jump siren_info
 
-        "Discover Andre's hostility towards you and the details of the bet":
-            a "Are you scared? In tonight's bet, I'll let you know what real fear is."
+#         "Discover Andre's hostility towards you and the details of the bet":
+#             a "Are you scared? In tonight's bet, I'll let you know what real fear is."
             
-            "He revealed that the bet would be held on the beach, and the loser would lose Lucy."
+#             "He revealed that the bet would be held on the beach, and the loser would lose Lucy."
             
-            menu:
-                "Agree to the bet":
-                    b "Fine, I accept the bet. But I won't lose."
-                    a "Hahaha, we'll see about that."
-                    jump continue_journey2
-                "Tell me more about the bet":
-                    jump continue_journey2
-                "Try to avoid the bet":
-                    b "I don't want to participate in this bet."
-                    a "What? Fine, you can back out."
-                    jump continue_journey1
+#             menu:
+#                 "Agree to the bet":
+#                     b "Fine, I accept the bet. But I won't lose."
+#                     a "Hahaha, we'll see about that."
+#                     jump continue_journey2
+#                 "Tell me more about the bet":
+#                     jump continue_journey2
+#                 "Try to avoid the bet":
+#                     b "I don't want to participate in this bet."
+#                     a "What? Fine, you can back out."
+#                     jump continue_journey1
 
-        "Keep a low profile":
-            b "..."
-            jump continue_journey1
+#         "Keep a low profile":
+#             b "..."
+#             jump continue_journey1
 
-label siren_info:
-    a "Siren Town is the only seaside town in history where the remains of a siren have been found. In history, many people claimed that they had seen the sirens here, or heard the beautiful singing of sirens and mermaids in the waves, and also saw these strange-looking mermaids feasting on human corpses on the dark reefs..."
+# label siren_info:
+#     a "Siren Town is the only seaside town in history where the remains of a siren have been found. In history, many people claimed that they had seen the sirens here, or heard the beautiful singing of sirens and mermaids in the waves, and also saw these strange-looking mermaids feasting on human corpses on the dark reefs..."
     
-    a "Those tourists who came to Siren Town mysteriously disappeared! Last month, twelve tourists disappeared completely in Siren Town! The police searched everywhere but to no avail, and no one has ever seen them leave Siren Town..."
+#     a "Those tourists who came to Siren Town mysteriously disappeared! Last month, twelve tourists disappeared completely in Siren Town! The police searched everywhere but to no avail, and no one has ever seen them leave Siren Town..."
 
-    a "\"The police have been organizing a salvage operation for a month, but they haven't found any bodies. Even if they really fell into the sea, this is not normal...\" \"Unless their bodies were eaten by Sirens, in which case it is also possible that the police couldn't salvage them...\""
+#     a "\"The police have been organizing a salvage operation for a month, but they haven't found any bodies. Even if they really fell into the sea, this is not normal...\" \"Unless their bodies were eaten by Sirens, in which case it is also possible that the police couldn't salvage them...\""
 
-    "Siren Town is a town that relies on fishing and helping to salvage sunken ships. It has always been remote and dilapidated. It was not until the new mayor took a different approach and used the rumor of mermaids to attract tourists that Siren Town developed through tourism."
+#     "Siren Town is a town that relies on fishing and helping to salvage sunken ships. It has always been remote and dilapidated. It was not until the new mayor took a different approach and used the rumor of mermaids to attract tourists that Siren Town developed through tourism."
 
-    "But since last month, tourists have been in trouble. These tourists did not fall into the water as Andre said. Some of them even disappeared in different corners of Siren Town without anyone noticing before they had time to go to the beach. For example, one tourist checked into the hotel that night and disappeared the next morning. The door was closed and no one saw him go out. The bed in the room was still warm, but the person was gone."
+#     "But since last month, tourists have been in trouble. These tourists did not fall into the water as Andre said. Some of them even disappeared in different corners of Siren Town without anyone noticing before they had time to go to the beach. For example, one tourist checked into the hotel that night and disappeared the next morning. The door was closed and no one saw him go out. The bed in the room was still warm, but the person was gone."
 
-    jump continue_journey1
+#     jump continue_journey1
 
-label continue_journey1:
+# label continue_journey1:
 
-    scene bg siren 42
-    "You arrive at the town and find wax figures of mermaids all over the town. You check into the hotel at night, and the wax figures seem to move at night. Andre touches the wax figure in the wax museum and begins to transform."
+#     scene bg siren 42
+#     "You arrive at the town and find wax figures of mermaids all over the town. You check into the hotel at night, and the wax figures seem to move at night. Andre touches the wax figure in the wax museum and begins to transform."
 
-    menu:
-        "Actively investigate the secrets of the wax figure":
-            b "What is this wax figure? Why does it look so lifelike?"
-            "You decide to investigate the secrets of the wax figure."
+#     menu:
+#         "Actively investigate the secrets of the wax figure":
+#             b "What is this wax figure? Why does it look so lifelike?"
+#             "You decide to investigate the secrets of the wax figure."
 
-            jump investigate_wax_figure
-        "Avoid the wax figure and go to bed":
-            b "I don't want to deal with this wax figure. I'll just go to bed."
+#             jump investigate_wax_figure
+#         "Avoid the wax figure and go to bed":
+#             b "I don't want to deal with this wax figure. I'll just go to bed."
 
-            "No way it doesn't work. The wax figure moves at night, and you can't sleep peacefully."
-            jump interact_wax_figure
-        "Try to interact with the wax figure":
-            b "Maybe I can interact with this wax figure."
-            jump interact_wax_figure
+#             "No way it doesn't work. The wax figure moves at night, and you can't sleep peacefully."
+#             jump interact_wax_figure
+#         "Try to interact with the wax figure":
+#             b "Maybe I can interact with this wax figure."
+#             jump interact_wax_figure
         
-label investigate_wax_figure:
+# label investigate_wax_figure:
 
-    scene bg siren 12
-    "You discover that the wax figures of mermaids are afraid of bright light and being looked at directly. Shining a flashlight or looking directly at them can stop them from moving. You plan to exploit this weakness."
+#     scene bg siren 12
+#     "You discover that the wax figures of mermaids are afraid of bright light and being looked at directly. Shining a flashlight or looking directly at them can stop them from moving. You plan to exploit this weakness."
 
-    menu:
-        "Use a flashlight to stop the wax figure":
-            b "I'll use a flashlight to stop the wax figure."
-            "You successfully stop the wax figure from moving. Points +2"
-            jump continue_journey2
-        "Continue to observe and look for more clues":
-            b "I'll keep observing the wax figure for more clues."
-            "You find that the wax figures are actually made of a special material that can mimic human movement."
-            jump interact_wax_figure
-        "Gather your teammates to discuss countermeasures":
-            b "I need to gather my teammates to discuss how to deal with the wax figure."
-            jump continue_journey2
+#     menu:
+#         "Use a flashlight to stop the wax figure":
+#             b "I'll use a flashlight to stop the wax figure."
+#             "You successfully stop the wax figure from moving. Points +2"
+#             jump continue_journey2
+#         "Continue to observe and look for more clues":
+#             b "I'll keep observing the wax figure for more clues."
+#             "You find that the wax figures are actually made of a special material that can mimic human movement."
+#             jump interact_wax_figure
+#         "Gather your teammates to discuss countermeasures":
+#             b "I need to gather my teammates to discuss how to deal with the wax figure."
+#             jump continue_journey2
 
-label interact_wax_figure:
-    "You try to touch the wax figure, your mental strength drops rapidly, and alienation begins. The wax figure starts to attack you."
+# label interact_wax_figure:
+#     "You try to touch the wax figure, your mental strength drops rapidly, and alienation begins. The wax figure starts to attack you."
 
-    "No it doesn't work. The wax figure is not just a wax figure, it has a life of its own. It attacks you, and you barely manage to escape."
+#     "No it doesn't work. The wax figure is not just a wax figure, it has a life of its own. It attacks you, and you barely manage to escape."
 
-    jump bad_ending
+#     jump bad_ending
 
-label continue_journey2:
+# label continue_journey2:
 
-    scene bg siren 22
-    "The next day, Andre challenges you to a bet on the beach. You can't swim, and the others gradually become fish."
+#     scene bg siren 22
+#     "The next day, Andre challenges you to a bet on the beach. You can't swim, and the others gradually become fish."
 
-    "You boarded a huge ship to join the mermaid fishing. The sailors and fishermen on board were different, and the ship was unusually heavy. At night, the ship sailed into the deep sea, full of dangers."
+#     "You boarded a huge ship to join the mermaid fishing. The sailors and fishermen on board were different, and the ship was unusually heavy. At night, the ship sailed into the deep sea, full of dangers."
 
-    "You are waiting for the dawn at sea and discover that Lucy and Jelf are having an affair. Andre is missing and blood is found on the boat. You speculate that Jelf and the driver are plotting something and Lucy is gradually turning into a wax figure."
+#     "You are waiting for the dawn at sea and discover that Lucy and Jelf are having an affair. Andre is missing and blood is found on the boat. You speculate that Jelf and the driver are plotting something and Lucy is gradually turning into a wax figure."
 
-    "You enter the wax museum to find more clues and find that the wax figures can move, and Jellal's conspiracy surfaces. You need to choose how to fight the monster and escape."
+#     "You enter the wax museum to find more clues and find that the wax figures can move, and Jellal's conspiracy surfaces. You need to choose how to fight the monster and escape."
 
-    menu:
-        "Use the flashlight to stop the wax figure":
-            b "I'll use the flashlight to stop the wax figure."
-            jump continue_journey3
-        "Found a secret passage in the wax museum, you escape through the secret passage.":
-            jump normal_ending
-        "Try to fight the wax figure directly":
-            b "I'll fight the wax figure directly."
-            "You try to fight the wax figure directly, but it is too powerful. You are defeated and turned into a wax figure."
-            jump bad_ending
+#     menu:
+#         "Use the flashlight to stop the wax figure":
+#             b "I'll use the flashlight to stop the wax figure."
+#             jump continue_journey3
+#         "Found a secret passage in the wax museum, you escape through the secret passage.":
+#             jump normal_ending
+#         "Try to fight the wax figure directly":
+#             b "I'll fight the wax figure directly."
+#             "You try to fight the wax figure directly, but it is too powerful. You are defeated and turned into a wax figure."
+#             jump bad_ending
 
-label continue_journey3:
+# label continue_journey3:
 
-    scene bg siren 32
-    "You enter a new place. The central exhibition hall is a circular exhibition hall, with a glass cabinet like a crystal coffin standing in the middle. The glass cabinet has dazzling white LED lights that illuminate the mermaid skeleton inside at 360 degrees without blind spots. Bai Liu looked at the mermaid corpse called skeleton with a rare look of surprise."
+#     scene bg siren 32
+#     "You enter a new place. The central exhibition hall is a circular exhibition hall, with a glass cabinet like a crystal coffin standing in the middle. The glass cabinet has dazzling white LED lights that illuminate the mermaid skeleton inside at 360 degrees without blind spots. Bai Liu looked at the mermaid corpse called skeleton with a rare look of surprise."
 
-    "The lines of the muscles are elegant and sharp, and the well-proportioned muscles wrap around the thin bones. Bubbles slowly rise in the deep dark blue liquid, entwining and floating in the mermaid's dark brown hair, and finally embedded in its slender light-colored eyelashes like a pearl. \n Its eyes are closed, and its face is incredibly delicate and exquisite. Some slightly curly long hair flutters across its thick and beautiful cheeks in the water, revealing a pair of ears that are very different from ordinary people. \n Its left ear is a fin made of shell mica, which shines with a colorful luster in the water, while the right ear is a bone-like fin, which appears from the wet long hair. \n The winding and curly fish tail is like a bright silver-blue ribbon washed in the sea water, hanging on the glass cabinet, and the inverted triangle scales sparkle under the light. There is a translucent flesh membrane between the fingers of the right hand, which is wrapped and overlapped with the bony left hand in front of the chest."
+#     "The lines of the muscles are elegant and sharp, and the well-proportioned muscles wrap around the thin bones. Bubbles slowly rise in the deep dark blue liquid, entwining and floating in the mermaid's dark brown hair, and finally embedded in its slender light-colored eyelashes like a pearl. \n Its eyes are closed, and its face is incredibly delicate and exquisite. Some slightly curly long hair flutters across its thick and beautiful cheeks in the water, revealing a pair of ears that are very different from ordinary people. \n Its left ear is a fin made of shell mica, which shines with a colorful luster in the water, while the right ear is a bone-like fin, which appears from the wet long hair. \n The winding and curly fish tail is like a bright silver-blue ribbon washed in the sea water, hanging on the glass cabinet, and the inverted triangle scales sparkle under the light. There is a translucent flesh membrane between the fingers of the right hand, which is wrapped and overlapped with the bony left hand in front of the chest."
 
-    menu:
-        "Look at the mermaid skeleton":
-            "!!You have triggered the wandering god-level NPC Siren King!!"
-            "!!Warning! Warning! This NPC is extremely dangerous and currently has no clear weakness. Once the NPC wants to kill, the player cannot use the weakness to escape and will only die. Please speed up the game cracking progress and quickly escape from Siren Town before the NPC wakes up!!"
-            jump continue_journey4
-        "Leave the wax museum":
-            "You decide to leave the wax museum and not look at the mermaid skeleton."
-            jump normal_ending
+#     menu:
+#         "Look at the mermaid skeleton":
+#             "!!You have triggered the wandering god-level NPC Siren King!!"
+#             "!!Warning! Warning! This NPC is extremely dangerous and currently has no clear weakness. Once the NPC wants to kill, the player cannot use the weakness to escape and will only die. Please speed up the game cracking progress and quickly escape from Siren Town before the NPC wakes up!!"
+#             jump continue_journey4
+#         "Leave the wax museum":
+#             "You decide to leave the wax museum and not look at the mermaid skeleton."
+#             jump normal_ending
 
-label continue_journey4:
+# label continue_journey4:
 
-    scene bg siren 67 22
-    "You drag the Siren King into the sea, ready to send him back to the bottom of the sea. There are a lot of mermaid larvae lurking in the sea, and the system prompts that the Siren King is about to wake up. \nYou push the Siren King to the seaside, and the mermaid sailor's scales grow rapidly in the rain, and the speed increases! The Siren King\'s eyelashes tremble, and the countdown to awakening is shortened to 3 hours."
+#     scene bg siren 67 22
+#     "You drag the Siren King into the sea, ready to send him back to the bottom of the sea. There are a lot of mermaid larvae lurking in the sea, and the system prompts that the Siren King is about to wake up. \nYou push the Siren King to the seaside, and the mermaid sailor's scales grow rapidly in the rain, and the speed increases! The Siren King\'s eyelashes tremble, and the countdown to awakening is shortened to 3 hours."
 
-    "The Siren King opened his eyes, \"You brought me back to the deep sea, what is your wish?\" \nSpirit value 0.1, panel attributes break through the limit! The fish tail smashes you into the magma crack, and all the bones in your body are broken."
+#     "The Siren King opened his eyes, \"You brought me back to the deep sea, what is your wish?\" \nSpirit value 0.1, panel attributes break through the limit! The fish tail smashes you into the magma crack, and all the bones in your body are broken."
 
-    menu:
-        "Wish to leave Siren Town":
-            "You wish to leave Siren Town, and the Siren King agrees. You are teleported back to the real world, but you have lost all your memories of Siren Town. You are safe, but you will never know what happened in Siren Town."
-            jump normal_ending
-        "How about a kiss?":
-            "You ask the Siren King for a kiss, and he agrees. You kiss him."
-            jump true_ending
+#     menu:
+#         "Wish to leave Siren Town":
+#             "You wish to leave Siren Town, and the Siren King agrees. You are teleported back to the real world, but you have lost all your memories of Siren Town. You are safe, but you will never know what happened in Siren Town."
+#             jump normal_ending
+#         "How about a kiss?":
+#             "You ask the Siren King for a kiss, and he agrees. You kiss him."
+#             jump true_ending
 
 label normal_ending:
     "You successfully escape from Siren Town and return to the real world. You have learned a lot about the mysteries of Siren Town, but you will never forget the horrors you experienced there."
