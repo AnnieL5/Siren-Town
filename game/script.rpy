@@ -314,7 +314,7 @@ label third:
             "白柳刚躺上床的动作一顿，他周围的房子都是他订下来的房间，他左右两边隔壁房间是安德烈和杰尔夫，为了保护（？）自己，白柳特意把露西安排到了离他最远的房间。"
 
             menu:
-                "爬起来，贴在了门上从猫眼看走廊上的场景"
+                "爬起来，贴在了门上从猫眼看走廊上的场景":
                     bl "门开合声是从左边传来的，左边是杰尔夫的房间，白柳从**爬起来，贴在了门上从猫眼看走廊上的场景，杰尔夫左右看了看，确认走廊上没有人之后，鬼鬼祟祟地从酒店的楼梯上走了下去。"
 
                     bl "白柳皱起了眉头，杰尔夫大半夜地不睡觉，去干什么？"
@@ -427,174 +427,107 @@ label third:
 
                             "但不得不说，在这种情况下，能有拉开门正视人鱼雕塑的新人玩家的确是极少数，大部分都慌了，就算是推断出【人眼直视】这个条件，也没有勇气去验证，只有白柳这个要钱不要命的，才有这种就算不能百分之百肯定自己的推论是对的，但依旧理不直气也壮的冷静。"
 
-                            
+                            board "【《塞壬小镇怪物书》人鱼雕像面板刷新】\n【怪物名称：人鱼雕像（蛹状态），护身符雕像（茧状态）】\n【弱点：人眼直视（1/3）】\n【攻击方式：孵化】"
 
-                # "保命，继续睡"
+                            mermaid "人鱼雕塑眼眸下垂，头稍稍往右下歪了一点，嘴角微微上扬带着一丝笑意，鱼尾优美，身躯洁白无瑕，姿态透着一种说不出的隐秘的美感和神性，一旦定格不动，身上那种让人脊背发凉的侵占欲就消失不见了，变成了一尊极具美学价值的人鱼雕塑，在海滨的午夜里，静默地矗立在异乡人的房门前。"
 
+                            board "【玩家白柳获得观看玩家充电3积分，解锁游戏商品铺子】\n【积分过低，无法购买任何物品，请玩家再接再厉！】\n【积分可以购买你想要的一切事物】。"
 
+                            "白柳关上商品店铺，和面前保持不动的人鱼雕塑面面相觑。\n现在这东西的确不动了，但白柳不可能整夜不睡和这东西对峙，而且经过这件事，白柳对这玩意儿的破坏力有了新的认识。"
 
+                            "他看向那个就快要从自己门上脱落的不锈钢把手。"
 
-#     b "Where are we going? This place looks so remote."
-#     l "Hey, sweetheart, you're finally awake!"
-#     a "Too late to back out now, Bai Liu. We're already on our way to Siren Town."
-#     menu:
-#         "Tell me more about Siren Town":
-#             b "What is Siren Town?"
-#             jump siren_info
+                            "但从之前他房间里那些雕塑的表现来看，虽然这个东西有巨大的破坏力，但是似乎只能依靠眼神来定位，或者说，只对视觉系的东西敏感，一旦被白布遮盖就没办法找到白柳的位置了，就算是在同一个房间里也难以找到他。"
 
-#         "Discover Andre's hostility towards you and the details of the bet":
-#             a "Are you scared? In tonight's bet, I'll let you know what real fear is."
-            
-#             "He revealed that the bet would be held on the beach, and the loser would lose Lucy."
-            
-#             menu:
-#                 "Agree to the bet":
-#                     b "Fine, I accept the bet. But I won't lose."
-#                     a "Hahaha, we'll see about that."
-#                     jump continue_journey2
-#                 "Tell me more about the bet":
-#                     jump continue_journey2
-#                 "Try to avoid the bet":
-#                     b "I don't want to participate in this bet."
-#                     a "What? Fine, you can back out."
-#                     jump continue_journey1
+                            "换言之，人鱼雕塑似乎没有听觉嗅觉等感官。"
 
-#         "Keep a low profile":
-#             b "..."
-#             jump continue_journey1
+                            "不然白柳和这么多人鱼雕塑同在一个面积房间里，就算是听白柳的呼吸声也很容易定位找到白柳，然后把白柳的头像门把手一样拧下来，不需要费力扯开白布再来寻找他，就凭这个徒手拧断门把手的能力，也不会现在都还被关在厕所衣柜里出不来。"
 
-# label siren_info:
-#     a "Siren Town is the only seaside town in history where the remains of a siren have been found. In history, many people claimed that they had seen the sirens here, or heard the beautiful singing of sirens and mermaids in the waves, and also saw these strange-looking mermaids feasting on human corpses on the dark reefs..."
-    
-#     a "Those tourists who came to Siren Town mysteriously disappeared! Last month, twelve tourists disappeared completely in Siren Town! The police searched everywhere but to no avail, and no one has ever seen them leave Siren Town..."
+                            bl "….真麻烦啊，数量还这么多，留着真是个包袱"
 
-#     a "\"The police have been organizing a salvage operation for a month, but they haven't found any bodies. Even if they really fell into the sea, this is not normal...\" \"Unless their bodies were eaten by Sirens, in which case it is also possible that the police couldn't salvage them...\""
+                            bl "他微微眯了眯眼睛，心里动了点恶念——现在他面前有一个一动不动任由他鱼肉的雕塑，他能不能对它做点试验，实验一下它的弱点到底是什么呢，比如用火烤用棒子敲把它弄死弄碎之类的…."
 
-#     "Siren Town is a town that relies on fishing and helping to salvage sunken ships. It has always been remote and dilapidated. It was not until the new mayor took a different approach and used the rumor of mermaids to attract tourists that Siren Town developed through tourism."
+                            board "【提示：玩家如果直接攻击该怪物，如果怪物不死，会导致怪物的仇恨值长期在玩家身上，会一直攻击玩家，降低玩家生存率】"
 
-#     "But since last month, tourists have been in trouble. These tourists did not fall into the water as Andre said. Some of them even disappeared in different corners of Siren Town without anyone noticing before they had time to go to the beach. For example, one tourist checked into the hotel that night and disappeared the next morning. The door was closed and no one saw him go out. The bed in the room was still warm, but the person was gone."
+                            bl "白柳深思地摸了摸下巴，他微笑起来，右边脸上露出一个人畜无害的小梨涡。"
 
-#     jump continue_journey1
+                            bl "“直接攻击它，会导致它记恨我，报复我是吧…”白柳自言自语，“那如果是它自己出事，就怪不了我了。”"
 
-# label continue_journey1:
+                            bl "白柳故技重施，用床单包裹住人鱼雕塑然后用绳子扎好下面的敞口，然后他不怀好意地把这尊人鱼雕塑放到了酒店楼梯门口。"
 
-#     scene bg siren 42
-#     "You arrive at the town and find wax figures of mermaids all over the town. You check into the hotel at night, and the wax figures seem to move at night. Andre touches the wax figure in the wax museum and begins to transform."
+                            "人鱼雕塑在看不见的情况下，就会无头般到处走，白柳把人鱼雕塑放在这个地方，就是为了让这个雕塑主动掉下楼梯。"
 
-#     menu:
-#         "Actively investigate the secrets of the wax figure":
-#             b "What is this wax figure? Why does it look so lifelike?"
-#             "You decide to investigate the secrets of the wax figure."
+                            "有仇恨值的前提下，白柳不会主动敲碎这些雕塑，如果能直接敲碎还好，但如果敲碎不了，这很明显会给自己找麻烦。"
 
-#             jump investigate_wax_figure
-#         "Avoid the wax figure and go to bed":
-#             b "I don't want to deal with this wax figure. I'll just go to bed."
+                            "但数量如此繁多的人鱼雕像是个不小的隐患，白柳只有一双眼睛，如果是木头人那种模式，如果他360度无死角地被雕像包围，而人的双眼水平视角最多只有188度，白柳没办法后脑勺长眼睛看到所有人鱼雕塑，那他就必死无疑了。"
 
-#             "No way it doesn't work. The wax figure moves at night, and you can't sleep peacefully."
-#             jump interact_wax_figure
-#         "Try to interact with the wax figure":
-#             b "Maybe I can interact with this wax figure."
-#             jump interact_wax_figure
-        
-# label investigate_wax_figure:
+                            "白柳喜欢做性价比更高的事情，虽然游戏说利用弱点从怪物手中逃生就行了，但他想要知道能不能直接通过某种方式毁掉这些雕像，或者说，这些雕像是否存在其他致命弱点。"
 
-#     scene bg siren 12
-#     "You discover that the wax figures of mermaids are afraid of bright light and being looked at directly. Shining a flashlight or looking directly at them can stop them from moving. You plan to exploit this weakness."
+                            "他不做主动敲碎或者击打人鱼雕塑的人，风险太大，他冒不起。"
 
-#     menu:
-#         "Use a flashlight to stop the wax figure":
-#             b "I'll use a flashlight to stop the wax figure."
-#             "You successfully stop the wax figure from moving. Points +2"
-#             jump continue_journey2
-#         "Continue to observe and look for more clues":
-#             b "I'll keep observing the wax figure for more clues."
-#             "You find that the wax figures are actually made of a special material that can mimic human movement."
-#             jump interact_wax_figure
-#         "Gather your teammates to discuss countermeasures":
-#             b "I need to gather my teammates to discuss how to deal with the wax figure."
-#             jump continue_journey2
+                            "但人鱼雕塑如果是因为自己视力不佳从楼梯上踩空掉下去，就和他无关了。"
 
-# label interact_wax_figure:
-#     "You try to touch the wax figure, your mental strength drops rapidly, and alienation begins. The wax figure starts to attack you."
+                            bl "白柳只是想做个小小的试验，验证这东西是否可以被砸碎，他退回了房间内，那个人鱼雕像果然不久之后就动了起来，白柳若有所思，其实他现在依旧是看着这个雕像的，但这个雕像被白布蒙住了头，不知道白柳看着他，所以就自己移动了起来。"
 
-#     "No it doesn't work. The wax figure is not just a wax figure, it has a life of its own. It attacks you, and you barely manage to escape."
+                            "这个证明，【人眼直视】只是一个客观条件，要人鱼雕像主观觉得自己被直视了，才能停止移动。"
 
-#     jump bad_ending
+                            "白柳房间里那么多雕塑，他没有办法一一直视，之前白柳一醒来还没来得及到处看，它们就主动停止了移动。"
 
-# label continue_journey2:
+                            "所以，只要人鱼雕像【觉得】自己被直视，就会停止移动了。\n能自我意识到这个层面，这些东西果然都是活物，还是拥有一定智力的活物，虽然看起来智力程度并不高。"
 
-#     scene bg siren 22
-#     "The next day, Andre challenges you to a bet on the beach. You can't swim, and the others gradually become fish."
+                            mermaid "楼梯口的人鱼雕像挣扎了几下，从楼梯阶梯边一划动，就蒙着白布噼里啪啦地摔了下去，扑出了一声灰尘满天的巨大响动，白柳站在楼梯上居高临下地看过去，拍拍手上的灰，有些遗憾地啧了一声，他看着下面毫发无损只是略微蜷缩了身体的人鱼雕像，大理石上连个裂纹都没有。"
 
-#     "You boarded a huge ship to join the mermaid fishing. The sailors and fishermen on board were different, and the ship was unusually heavy. At night, the ship sailed into the deep sea, full of dangers."
+                            bl "…果然摔不坏啊……物理攻击无效啊…."
 
-#     "You are waiting for the dawn at sea and discover that Lucy and Jelf are having an affair. Andre is missing and blood is found on the boat. You speculate that Jelf and the driver are plotting something and Lucy is gradually turning into a wax figure."
+                            bl "白柳回到了自己的房间, 为了安全起见，白柳用白布蒙上了自己房间的猫眼，避免人鱼窥探，又用一个柜子抵住了门，希望要是有人鱼破门而入的时候能制造点声音把他弄醒。"
 
-#     "You enter the wax museum to find more clues and find that the wax figures can move, and Jellal's conspiracy surfaces. You need to choose how to fight the monster and escape."
+                            bl "他的体力值也要清空了，白柳做完这一切之后，他就躺在床。上，阖上双眸，一夜无梦。"
 
-#     menu:
-#         "Use the flashlight to stop the wax figure":
-#             b "I'll use the flashlight to stop the wax figure."
-#             jump continue_journey3
-#         "Found a secret passage in the wax museum, you escape through the secret passage.":
-#             jump normal_ending
-#         "Try to fight the wax figure directly":
-#             b "I'll fight the wax figure directly."
-#             "You try to fight the wax figure directly, but it is too powerful. You are defeated and turned into a wax figure."
-#             jump bad_ending
+                            jump true_ending
 
-# label continue_journey3:
+                "保命，继续睡":
+                    "晚上有惊无险的度过去了。"
 
-#     scene bg siren 32
-#     "You enter a new place. The central exhibition hall is a circular exhibition hall, with a glass cabinet like a crystal coffin standing in the middle. The glass cabinet has dazzling white LED lights that illuminate the mermaid skeleton inside at 360 degrees without blind spots. Bai Liu looked at the mermaid corpse called skeleton with a rare look of surprise."
+                    board "【玩家夜里收到美人鱼雕塑影响，精神值减低20】"
 
-#     "The lines of the muscles are elegant and sharp, and the well-proportioned muscles wrap around the thin bones. Bubbles slowly rise in the deep dark blue liquid, entwining and floating in the mermaid's dark brown hair, and finally embedded in its slender light-colored eyelashes like a pearl. \n Its eyes are closed, and its face is incredibly delicate and exquisite. Some slightly curly long hair flutters across its thick and beautiful cheeks in the water, revealing a pair of ears that are very different from ordinary people. \n Its left ear is a fin made of shell mica, which shines with a colorful luster in the water, while the right ear is a bone-like fin, which appears from the wet long hair. \n The winding and curly fish tail is like a bright silver-blue ribbon washed in the sea water, hanging on the glass cabinet, and the inverted triangle scales sparkle under the light. There is a translucent flesh membrane between the fingers of the right hand, which is wrapped and overlapped with the bony left hand in front of the chest."
+                    jump normal_ending
+        "不管，去睡觉":
+            "夜里，美人鱼雕像缓缓向你靠近，但你未能成功醒来。"
 
-#     menu:
-#         "Look at the mermaid skeleton":
-#             "!!You have triggered the wandering god-level NPC Siren King!!"
-#             "!!Warning! Warning! This NPC is extremely dangerous and currently has no clear weakness. Once the NPC wants to kill, the player cannot use the weakness to escape and will only die. Please speed up the game cracking progress and quickly escape from Siren Town before the NPC wakes up!!"
-#             jump continue_journey4
-#         "Leave the wax museum":
-#             "You decide to leave the wax museum and not look at the mermaid skeleton."
-#             jump normal_ending
+            jump bad_ending
+                    
 
-# label continue_journey4:
-
-#     scene bg siren 67 22
-#     "You drag the Siren King into the sea, ready to send him back to the bottom of the sea. There are a lot of mermaid larvae lurking in the sea, and the system prompts that the Siren King is about to wake up. \nYou push the Siren King to the seaside, and the mermaid sailor's scales grow rapidly in the rain, and the speed increases! The Siren King\'s eyelashes tremble, and the countdown to awakening is shortened to 3 hours."
-
-#     "The Siren King opened his eyes, \"You brought me back to the deep sea, what is your wish?\" \nSpirit value 0.1, panel attributes break through the limit! The fish tail smashes you into the magma crack, and all the bones in your body are broken."
-
-#     menu:
-#         "Wish to leave Siren Town":
-#             "You wish to leave Siren Town, and the Siren King agrees. You are teleported back to the real world, but you have lost all your memories of Siren Town. You are safe, but you will never know what happened in Siren Town."
-#             jump normal_ending
-#         "How about a kiss?":
-#             "You ask the Siren King for a kiss, and he agrees. You kiss him."
-#             jump true_ending
 
 label normal_ending:
-    "You successfully escape from Siren Town and return to the real world. You have learned a lot about the mysteries of Siren Town, but you will never forget the horrors you experienced there."
+    "你虽然受了点伤但是成功挺过了这一夜。"
 
-    "Congratulations! You have completed the game with a normal ending."
+    "恭喜你，normal ending."
 
     return
 
 label bad_ending:
     board "【玩家精神值清0，被怪物人鱼雕塑彻底异化，游戏通关失败】"
+
+    "Bad ending"
     return
 
 label true_ending:
-    "The lips of the Siren King were soft and cold, with a very light smell of creeping grass, and they separated at the touch."
+    "恭喜你，用你的智慧几乎零损耗的度过了这一夜。"
 
-    scene bg siren 67 32
-    s "The Siren King leaned on Bai Liu, his expression slightly strange and confused: \"You're temperature is warm'.\""
-    
-    b "\"Of course.\" Bai Liu was a little amused, \"I am a warm-blooded animal. See you next time, Siren King.\""
-    
-    s "The Siren King whispered in the light: \"See you next time, Bai Liu.\""
-
-    "True ending"
+    "很不错，true ending."
 
     return
+
+# label true_ending:
+#     "The lips of the Siren King were soft and cold, with a very light smell of creeping grass, and they separated at the touch."
+
+#     scene bg siren 67 32
+#     s "The Siren King leaned on Bai Liu, his expression slightly strange and confused: \"You're temperature is warm'.\""
+    
+#     b "\"Of course.\" Bai Liu was a little amused, \"I am a warm-blooded animal. See you next time, Siren King.\""
+    
+#     s "The Siren King whispered in the light: \"See you next time, Bai Liu.\""
+
+#     "True ending"
+
+#     return
