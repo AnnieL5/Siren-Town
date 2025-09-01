@@ -1,6 +1,4 @@
-﻿
-
-define bl = Character('Bai Liu', color="#aaffcc")
+﻿define bl = Character('Bai Liu', color="#aaffcc")
 define lucy = Character('Lucy', color="#ff99cc")
 define andre = Character('Andre', color="#99aaff")
 define jelf = Character('Jelf', color="#ccccff")
@@ -12,509 +10,515 @@ define board = Character("Board", color="#ffcc99")
 
 
 label start:
+    scene bg 1 11
+
+    "You are Bai Liu. Bai Liu woke up and found himself sitting in the back seat of a car. The interior was cramped, and the worn seatbacks reeked of cigarette smoke. Streams of water streamed down the windows, and through the glass he could vaguely see the gentle drizzle of rain outside. The sky was dim, and he couldn't tell whether it was dusk or night. A faint, unpleasant smell of salted fish lingered in his nostrils."
+
+    "Before him floated a panel, with the words ――【Game Instructions】 written on it."
+
+    "Bai Liu frowned."
+
+    bl "Where is this? Why is he here? And what is this panel?"
+
+    "The panel seemed able to sense the doubts in his heart, and answers appeared on it one by one."
+
+    board "【You are in a deadly game, and the reason you are here is because we detected that after losing your job, you developed an overwhelming desire for money—so strong that it met the conditions for the game to begin】"
+
+    board "【Clearing the game will earn you points, and points can be exchanged for money and anything else you desire】"
+
+    bl "What kind of game is this? What do I have to do to clear it and get the points you mentioned?"
+
+    board "【This is a horror survival game, filled with ghosts, serial killers, and unimaginable beings. What you must do is find their weaknesses, complete the storyline of the entire game instance, and survive their pursuit】"
+
+    board "【Loading game instance….. Load complete】"
+
+    board "【Game Instance Title: 《Siren Town》】\n【Level: Level One (Games with a player mortality rate below 50\% are classified as Level One)】\n【Mode: Single-player mode】\n【Overview: This is a thrilling game combining action and puzzle-solving, very popular among players, but it doesn’t seem very friendly to newcomers—the newcomer death rate is extremely high】"
+     
     scene bg 1 12
 
-    "You are Bai Liu. 白柳醒来，他发现自己坐在一个车的后座上，车内部狭隘窄小，破旧的椅背上泛着逼真的烟味，车窗上滑落不成股的水流，能从玻璃上模糊地看到窗外细雨淅淅沥沥，天色昏沉，分不清是黄昏还是夜晚，他的鼻腔里还萦绕着一丝淡淡的，让他不适的咸鱼腥味。"
+    "Bai Liu was lying sideways in the last row of a van. It was cramped and narrow, and even turning over was difficult. When he moved, he noticed a necklace slipping down from his neck. His clothes, however, were exactly the same as before he entered the game—white shirt, black trousers, the typical daily attire of an office worker. The only new thing was this necklace."
 
-    "他的面前有一个飘浮的面板，上面写着――【游戏须知】。"
+    "The pendant on the necklace was a one-yuan coin with a hole punched through it. As soon as Bai Liu placed his hand on it, sure enough, the game panel popped up. The panel was the same as before, with no additional information."
 
-    "白柳皱起眉来。"
-    
-    bl "这是哪里？他为什么在这里？这个面板又是什么东西？"
+    "Bai Liu poked his head out from the back seat. This was a seven-seater van. Aside from Bai Liu lying in the back row, there were four other people in front. As soon as he looked out, someone turned toward him in surprise:"
 
-    "这个面板好像能感知他心中的疑问一般，依次在上面显现出答案。"
+    scene bg 1 13
 
-    board "【你在一场致命的游戏中，而你之所以在这里是因为我们检测到你在失业之后爆发出了巨大的对金钱的欲望，欲望强烈到，符合游戏开启条件】"
+    lucy "Bai Liu, hey, my little sweetheart, you’re finally awake!"
 
-    board "【通关游戏你将获得积分，而积分可以兑换金钱和你想要的一切事物】"
+    "Besides Bai Liu, the six others clearly all had foreign appearances. The one who called Bai Liu ‘sweetheart’ was a girl with long brown curly waves, red lips, and brown eyes. She wore hot pants and a camisole. The moment Bai Liu saw this person, the coin on his chest triggered the panel, and character information appeared:"
 
-    bl "这是什么游戏？我要怎么做才能通关获得你说的积分？"
+    board "【NPC Name: Lucy】\n【Character Info: Your classmate, she really likes boys of your type. Last night, you attempted a sexual encounter, but faced with Lucy—who is ten centimeters taller than you and far more passionate and bold—you were too shy, so it didn’t succeed (lol).】"
 
-    board "【这是一场恐怖逃生游戏，里面充斥着鬼怪，杀人狂魔，不可思议之物，而你要做的就是找出他们的弱点，完成通关整个游戏副本的剧情，并从他们手中顺利存活下来】"
-    
-    board "【游戏副本载入中…..载入完毕】"
+    "It seemed that in this game, the NPC panel information was only triggered when the player actually looked at the NPC—just like in online games where hovering the mouse reveals details. The player’s eyes now served as both the mouse and the game controller."
 
-    board "【游戏副本名称：《塞壬小镇》】\n【等级：一级（玩家死亡率小于百分之五十的游戏为一级游戏）】\n【模式：单人模式】\n【综合说明：这是一款刺激的动作向和解密向相结合的游戏，在玩家中大受欢迎，但似乎对新人不是很友好，新人死亡率非常高】"
-    
-    # scene bg 1 1 // edit afterwards
+    "He pondered for a moment. It seemed that in this game, losing one’s eyesight would at least be fatal."
 
-    "白柳是侧睡在一辆面包车的最后一排里，很挤很狭窄，他翻身都很艰难，他一动就看到有个项链从自己的脖子从落了出去，但他现在身上的衣服都和进入游戏之前没有区别，白衬衫黑裤子，典型的上班族社畜的日常穿搭，只有这根项链是多出来的东西。"
+    lucy "Lucy winked playfully at Bai Liu: “Hey, baby, was it me who wore you out? You’ve been sleeping ever since we got in the car.”"
 
-    "项链的挂坠是一个被打了孔的一块钱硬币，白柳把手放上去之后果然就看到了游戏面板弹了出来，面板和之前一样，没有什么多出来的信息。"
+    bl "Quickly changing the subject, Bai Liu glanced at the increasingly desolate, cold scenery outside the window and asked: “Where exactly are we going? Why does it look so remote?”"
 
-    "白柳从车后座探头出来，这是一辆七人座的面包车，除了白柳躺在后排之外，前面还有四个人，他一探头出来就有人很惊喜地看向他："
+    andre "“Looks like the coward is thinking of bailing again.”"
 
-    lucy "白柳，嘿，我的小甜心，你终于醒了！"
+    "A deep, mocking voice came from the front. A tall man in tight jeans and a sports T-shirt crossed his arms and looked at Bai Liu with contempt. His muscular build stretched his shirt to the point of nearly bursting, making him resemble an American football player."
 
-    "除了白柳，这六个人很明显都是一副外国人的长相，喊白柳小甜心的是个棕色卷发大~波浪的妹子，红唇棕色眸子，穿着热裤和吊带，白柳在看到这个人的一瞬间，心口上的硬币就弹出了面板，上面写着人物信息："
+    andre "Towering over him with arms crossed, he sneered at Bai Liu, “Too late, Bai Liu. Even if a coward like you wants to back out, we’re already on the road to Siren Town.”"
 
-    board "【npc名称：露西】\n【人物简介：你的同班同学，很喜欢你这类型的男生，昨晚你们有过性尝试，但你面对比你高十公分还热情大胆的露西太羞涩了，没有成功（笑）】"
-    
-    "这个游戏似乎触发npc面板信息是需要玩家自己【看】到的，就和玩网游需要把鼠标放上去才会弹出信息是一样的，玩家的眼睛现在就相当于玩家的鼠标和游戏手柄。"
-
-    "他若有所思，看来在这个游戏中至少不能失去视力。"
-    
-    lucy "露西对着白柳挤眉弄眼：“嘿，宝贝，是我把你累着了吗？你可是从上车就开始睡了一路。”"
-
-    bl "他及时地岔开话题，白柳看了看窗外越来越偏僻冷涩的景色，开口问道：“我们这是要去什么地方？怎么看着这么偏僻？”"
-
-    andre "“看来有胆小鬼又想临阵脱逃了。”"
-
-    "一道讽刺浑厚的男声从前面传过来，一个穿着紧身牛仔裤和运动t的高大男人抱胸鄙夷地看着白柳，这人的身材过于健壮，上衣被撑得快要爆炸一样，看着很像一个橄榄球运动队员。"
-
-    andre "他居高临下的抱胸打量白柳，嗤道，“晚了，白柳，就算是你个懦夫想要临阵脱逃，我们也已经在去塞壬镇的路上了。”"
-
-    board "【npc名称：安德烈】\n【人物简介：你的情敌，喜欢露西但被露西拒绝了，对你很有敌意，之前你和他打赌要在世界上最危险的地方守护露西，来证明你对露西的爱，于是你们一行人驱车来到塞壬镇，但你因为胆小在上车之前大哭了一场，后悔不想上车，是被他强硬地拉上车的】"
+    board "【NPC Name: Andre】\n【Character Info: Your love rival. He likes Lucy but was rejected by her, and he harbors strong hostility toward you. Previously, you made a bet with him that you would protect Lucy in the most dangerous place in the world to prove your love for her. That’s why your group drove to Siren Town. But because of your cowardice, you cried bitterly before getting in the car, regretted it, and didn’t want to come. He forcibly dragged you into the car.】"
 
     menu:
-        "“塞壬镇，是个什么地方？”":
-            bl "白柳已经连续看到塞壬镇这个地名两次了，他忽视安德烈对他的嘲讽，询问：“塞壬镇，是个什么地方？”"
+        "“Siren Town, what kind of place is it?”":
+            bl "Bai Liu had already seen the name Siren Town twice in a row. Ignoring Andre’s mockery, he asked: “Siren Town, what kind of place is it?”"
             jump siren_info
         "...":
             jump second
 
-label siren_info:
-    "安德烈又是冷哼一声，刚想开口继续嘲讽白柳，一道絮絮叨叨连绵不绝的小声念叨就打断了安德烈的嘲讽："
+label siren_info: 
+    scene bg siren 12
 
-    jelf "“塞壬镇，历史上唯一一个被发现过海妖残骸的海滨小镇，历史上有不少人称他们撑在这里见过海妖塞壬的身影，或者在海浪中听闻到了海妖人鱼美妙的歌声，也见过这些相貌妖异的人鱼海妖在漆黑的礁石上对着人类的尸体大快朵颐….”"
+    "Andrei gave another cold snort. Just as he was about to continue mocking Bai Liu, a rambling, incessant murmur interrupted his sneer:"
 
-    andre "“杰尔夫！那些只是塞壬镇为了骗游客去观光编造出来的故事罢了！”"
+    jelf "“Siren Town, the only seaside town in history where remains of sea monsters have ever been discovered. Many people throughout history claimed they saw sirens here, or heard the beautiful songs of mermaids echoing in the waves. Some even witnessed these strange-looking merfolk feasting on human corpses atop the pitch-black reefs….”"
 
-    "安德烈不耐烦地打断对方的低声快速的话，但神色上却有畏惧一闪而过。"
+    andre "“Jelf! Those are nothing but stories Siren Town made up to trick tourists into visiting!”"
 
-    jelf "一个小个子带着厚厚啤酒瓶酒盖的男生抱着自己胸前的书瑟缩了一下，似乎有些怕安德烈，声音更低地反驳道："
+    "Andrei impatiently cut off the other’s rapid whispering, but a flash of fear still crossed his face."
 
-    jelf "“那你怎么解释，那些来塞壬镇的游客神秘失踪的事情！上个月甚至有十二名游客来了塞壬镇之后就彻底消失不见了！警方到处搜寻，没有人见过他们离开塞壬镇….”"
+    jelf "A small boy wearing thick beer-bottle-bottom glasses hugged the book in his arms and shrank back, seeming somewhat afraid of Andrei. In a lower voice, he retorted:"
 
-    board "【npc名称：杰尔夫】\n【人物简介：人鱼海怪等非自然生物的强烈爱好者，在得知露西一行人要前往塞壬镇之后，主动要求一起前往，对塞壬镇的传说故事十分了解】"
+    jelf "“Then how do you explain the mysterious disappearances of those tourists who came to Siren Town? Just last month, twelve tourists came and vanished completely! The police searched everywhere, but no one ever saw them leave Siren Town….”"
 
-    andre "安德烈怼道：“这些人多半就是自己落水淹死了，海边淹死多正常。”"
+    board "【NPC Name: Jelf】\n【Character Profile: An avid enthusiast of mermaids, sea monsters, and other supernatural creatures. Upon learning that Lucy’s group was going to Siren Town, he insisted on joining. He knows the legends of Siren Town very well.】"
 
-    jelf "杰尔夫却很不服：“警察已经组织打捞了一个月了，没有打捞到任何一具尸骸，就算他们真的落入海中，这也不正常..”"
+    andre "Andrei snapped back: “Most likely they just drowned themselves. Drowning at the seaside is perfectly normal.”"
 
-    jelf "他说着说着语气低沉幽暗起来，还夹带着一丝兴奋，“除非是他们的尸体被塞壬吃了，这样警察打捞不到也是…”"
+    jelf "Jelf refused to back down: “The police have been dredging the waters for a month and haven’t recovered a single body. Even if they really fell into the sea, that’s not normal..”"
 
-    andre "安德烈终于火了，他怒着狠狠打了一下杰尔夫的头：“住嘴！你这个该死的四眼仔！整天人鱼人鱼的！我看你长得像条人鱼！”"
+    jelf "His tone grew low and eerie as he spoke, laced with a trace of excitement. “Unless their bodies were eaten by sirens. That would explain why the police couldn’t find them…”"
 
-    "安德烈下手很重，白柳都能清晰地看到杰尔夫的头在座椅边磕了一下，他晕头晕脑地又在安德烈身上撞了一下，这下又激怒了安德烈，他甩手给了杰尔夫几巴掌，打得杰尔夫一颗牙齿都飞出来了。"
+    andre "Andrei finally lost it. He furiously smacked Jelf hard on the head. “Shut up! Damn four-eyes! Always going on about mermaids, mermaids! You look more like a fish yourself!”"
 
-    jelf "杰尔夫低着头捡起自己的牙齿不说话了，他用一种很隐晦的暗恨的目光看着安德烈，嘴里很轻地用口型说了一句话。"
+    "Andrei struck with such force that Bai Liu could clearly see Jelf’s head slam against the edge of the seat. Dazed, he staggered and bumped into Andrei again, which further enraged him. Andrei slapped Jelf several times, hitting him so hard that one of Jelf’s teeth flew out."
 
-    jelf "其他人都没有听到，但白柳听力一向不错，他听到杰尔夫说：【人鱼一定会把你撕碎吞咽下去的，安德烈】"
+    jelf "Jelf lowered his head, silently picking up his tooth. He glared at Andrei with a concealed, bitter hatred in his eyes, and mouthed something under his breath."
 
-    "白柳微挑了一下眉，但是什么都没说，这npc的人物关系还有点复杂。"
+    jelf "No one else heard, but Bai Liu’s hearing had always been sharp. He heard Jelf whisper: 【The mermaids will tear you apart and swallow you whole, Andrei.】"
 
-    "看来安德烈对杰尔夫随意打骂不是一两天的事情了，并且这个杰尔夫似乎已经用“人鱼”谋划了一个复仇计划。"
+    "Bai Liu raised an eyebrow slightly but said nothing. This NPC’s relationships seemed rather complicated."
+
+    "It appeared that Andrei’s habit of beating and cursing Jelf had been going on for quite some time. And Jelf, in turn, seemed to have already woven “mermaids” into a plan for revenge."
 
     jump second
     
 label second:
-    "开车的司机是白柳花钱请的塞壬小镇的当地人，从露西言谈中，白柳发现自己还是个富二代，一行人的食宿都是他包了的，司机也是他花大价钱请的，还麻烦了司机帮忙找当地的旅馆。"
+    scene bg siren 42
+    " The driver was a local from Siren Town hired with Bai Liu’s money. From Lucy’s conversation, Bai Liu realized he was indeed a rich second-generation—he had covered everyone’s food and lodging, hired the driver at a high price, and even asked him to help find a local inn. "
 
-    driver "车一直开到了深夜才到达那个神秘的塞壬小镇，在司机的描述中，塞壬小镇是一个靠着捕鱼和帮忙打捞沉船度日的小镇，一直都偏僻又破败，直到新镇长另辟蹊径用人鱼的传闻来吸引游客，塞壬小镇才靠着旅游业发达起来。"
+    driver "The car drove all the way until late at night before reaching the mysterious Siren Town. According to the driver’s description, Siren Town was a place that survived by fishing and salvaging shipwrecks. It had always been remote and rundown, until the new mayor came up with the idea of using mermaid legends to attract tourists. Only then did Siren Town flourish through tourism. "
 
-    driver "但上个月不断有游客出事，这些游客并不像安德烈所说是落水了，有些甚至还没来得及去海边，就神不知鬼不觉地就消失在塞壬小镇的各个角落，比如有一个游客就是当晚住进酒店，第二天一早人就不见了，房屋紧闭也没有看见他出去，屋内的床都还留有余温，但是人就是不见了。"
+    driver "But last month, tourists kept having accidents. These tourists weren’t just falling into the sea like Andre claimed—some hadn’t even gone to the shore before vanishing mysteriously in different corners of Siren Town. For example, one tourist checked into a hotel at night, but the next morning he was gone. The room was locked, no one saw him leave, and the bed still retained body heat, but the man himself had disappeared. "
+
+    driver "So now, even during the peak tourist season, Siren Town is eerily desolate. Many inns and hotels have closed down due to poor business. "
+
+    "Siren Town was indeed very dilapidated. Fences and fishing nets were strewn everywhere, the ground was covered in dried shells, seaweed, and mud. Only some inns and hotels had decent decorations. When Bai Liu’s group arrived, it was already late at night, yet there were still many people on the streets. "
+
+    "These pedestrians had originally been walking in unison toward the sea, but once Bai Liu’s car entered, they all stopped simultaneously, tilted their heads, and stared fixedly at Bai Liu’s car. "
+
+    bl "Bai Liu turned to ask the driver: “It’s already midnight, what are these people doing at the sea?”"
+
+    driver "The driver shook his head: “Not many tourists come these days, the economy is bad, so they can only go back to fishing. You wouldn’t know this if you haven’t fished before, but many valuable fish are afraid of strong light. They only come out at night, so that’s why people go out to sea then.” "
+
+    "The townsfolk stared at Bai Liu with strange gazes, their eyes glowing cat-like green in the night. Their faces wore peculiar expressions, as if smiling, but their lips never fully curved up. Instead, the corners of their mouths twitched stiffly. "
+
+    "They held fishing nets and hooks, some carried oil lamps with hazy light. They stared unblinking at Bai Liu’s car, their eyes following it as if they might rush forward at any moment to attack the vehicle with their fishing tools. "
+
+    driver "“You’d better be careful around these people,” the driver warned. “They’re desperate for money lately, and you’re rich.” "
+
+    "Because of Bai Liu’s lavish spending as a rich second generation, the driver booked the group into the best hotel in town. "
+
+    "The hotel was so luxurious that it clashed completely with the town’s style—it was a very modern and fashionable five-star type of place, with an actual fountain at the entrance. "
+
+    "Inside the fountain was a stone statue of a mermaid. The carving was lifelike: her smooth marble skin glowed faintly like real human skin under the dim moonlight, her long hair draped over and covered her full breasts, her tail stood upright in the pool. With her eyes downcast and expression sorrowful, she held an urn in her hands. From the urn spilled fake mica pearls, and the fountain water poured from it into the pool, sounding like ocean waves crashing. "
+
+    "The driver circled around the fountain and parked the car right at the hotel entrance. "
+
+    scene bg 1 4
+
+    jelf "Jelf suddenly cried out, pointing at the mermaid fountain statue at the entrance: “She just looked at me! She just moved!” "
+
+    bl "Bai Liu followed Jelf’s gaze, but the mermaid statue still lowered her eyes, staring into the water, motionless. "
+
+    andre "Andre was startled by Jelf’s cry and punched him hard: “Fuck! She didn’t move at all! If you keep making a fuss like this, I’ll tear out your vocal cords and let’s see if you’ll still scream then!” "
+
+    jelf "Jelf clutched his head where he was hit, glanced fearfully at Andre, curled up into a ball, and muttered softly: “She did move, she really did…” "
+
+    lucy "Lucy was also unsettled by Jelf, forcing a smile: “Jelf, how can you be so sure it wasn’t your eyes playing tricks on you, but that the mermaid statue actually moved? The statue doesn’t even have pupils—how could you know it was looking at you?” "
+
+    "It was a milky-white marble mermaid statue. Though its eyes were carved, there were no black pupils—the eyes were entirely pure white, standing at the hotel entrance like some soulless, lifeless creature. "
+
+    jelf "“Didn’t you notice?” Jelf’s voice dropped lower, trembling, “No matter where our car drove, the statue’s eyes were always staring right at us. Her eyes must be moving…” "
+
+    lucy "“Oh… so that’s what you meant…” Lucy let out a breath of relief and finally laughed. “It’s just like that painting ‘Mona Lisa’s Smile’, right? No matter where you stand, you feel like she’s looking at you.” "
+
+    bl "“No. That effect of a portrait’s gaze following you can only happen in two-dimensional images. It’s impossible in three dimensions, which means a statue shouldn’t be able to do that.” Bai Liu calmly refuted Lucy. “Jelf is right—the statue’s gaze has indeed been moving with us.” "
+
+    "It was just like those townsfolk—constantly staring at them the moment they entered, as if watching prey that had stepped into their hunting grounds. "
+
+    "This thing must be some kind of monster. "
+
+    board "Just as this thought formed, the coin on Bai Liu’s chest suddenly trembled, and a brand-new panel popped out. The game panel transformed into a heavy, ancient book like something from the Middle Ages, slowly opening in front of Bai Liu. "
+
+    board "【Congratulations to the player for discovering the first game monster, unlocking the Monster Book – Siren Town Special (1/4)】"
     
-    driver "于是处于旅游旺季的塞壬镇却荒凉得不可思议，不少旅馆酒店都因为经营不善而关门了。"
+    scene bg 1 6
 
-    "塞壬镇的确很破败，到处都是飞卷的围栏和渔网，地面上都是晒干的贝壳和海藻，还有泥沙，只有一些酒店旅馆的装潢不错，白柳他们到的时候已经是深夜了，但路上还是有很多行人。"
+    board "【Monster Name: Mermaid Sculpture (Pupa State)】\n【Attack Value: ??? (Unknown, locked, unlocks after battle)】\n【Attack Method: ?? (Unexplored)】\n【Weakness: ?? (Unexplored)】"
 
-    "这些行人原本步伐一致地往海边去的，但白柳他们开着车一进来，这些原本要去海边的镇民就不约而同地停下，头一偏，目光直勾勾地看向白柳的车。"
+    "The question marks looked like smudges of wet ink and stains, making the words unreadable. Floating behind them were glowing letters with explanations."
 
-    bl "白柳转头问司机：“已经半夜了，这些人去海边干什么？”"
+    board "Below the weakness was an explanatory line:\n【Note: Completing this monster book page through exploration grants corresponding point rewards and special rewards. Collecting all monster book pages from one game instance allows you to take away the most precious thing from one type of monster in that instance.】"
 
-    driver "司机摇摇头：“最近没什么人来旅游，经济不景气，他们就只能重新捕鱼，你没捕鱼过你不知道，很多值钱的鱼都畏强光，只有夜里才会出来活动，所以他们才在夜间下海。”"
+    "The Siren Town Monster Book had four pages, but Bai Liu couldn’t turn to the later ones—they showed as locked. They must belong to monsters from other game instances."
 
-    "镇民们用很诡异的目光看着白柳，眼神在夜里泛出猫一样的绿光，脸上带着一种奇异的表情，好像是在笑，但他们的嘴角没有彻底上扬，反倒是僵直一般在嘴角抽~搐着。"
+    "But judging from these exploration conditions, and even battles included, this was completely encouraging players to court death and provoke monsters….."
 
-    "他们手中还拿着渔网和鱼钩，有些人手上提着灯光乳化的油灯，他们目不转睛地凝视装着白柳那辆车，眼神随着车移动，好似随时都会冲上来用手中的渔具来攻打这辆车一般。"
+    lucy "Lucy nervously hugged Bai Liu’s hand: “…Is she really moving?!”"
 
-    driver "“你们要小心一点这些家伙。”司机提醒，“他们最近很缺钱，而你们很有钱。”"
+    andre "“How could that be possible!” Andre seemed infected by Bai Liu’s firm words. For a moment, fear flickered across his face, but it was quickly suppressed. He sneered at Bai Liu, “Bai Liu, if you, coward, are unwilling to prove your love for Lucy, making up excuses to run away just to cling to life—then go! Once we return, you’ll automatically give up on Lucy, then kneel and lick the piss off my leather shoes!”"
 
-    "因为白柳这个富二代出手阔绰的原因，司机给他们一行人找了当地最好的酒店。"
+    driver "The driver’s expression twitched oddly, but in the end, he pretended calm and joked: “It’s so late, you must’ve seen wrong. What moving statue? If there really was one, our town would have preserved it as a tourist attraction long ago! That’d make us a fortune. The mermaid statue is just our town’s feature, you can see them everywhere—nothing special.”"
 
-    "这酒店豪华得和整个小镇的画风格格不入，是那种非常现代时髦的五星级酒店画风，门口居然还有喷泉池子。"
+    driver "“We’re here, get off now. Have a good night’s rest and enjoy yourselves tomorrow morning.” The driver opened the door and let them out."
 
-    "喷泉池子里有一尊人鱼的石雕，这人鱼雕刻得栩栩如生，莹润的大理石皮肤在黯淡的月光下闪着近乎于人类皮肤的光泽，长发垂落下来遮住她的丰满的乳/房，鱼尾立在水池中，她垂着眼眸，表情悲天悯人，手上托举着一个水壶，水壶里散落一些假的云母珍珠，喷泉就从水壶里倾倒下来，落在水池中，发出好似海浪一般的潮水声。"
+    "Bai Liu glanced back at the mermaid statue in the fountain. From afar, the statue was still facing them, head meekly bowed toward the water’s surface, seemingly not watching them."
 
-    "司机绕着酒店门口的喷泉池子，一路把车开到了酒店的正门口。"
+    "But Bai Liu remembered clearly: when their car had just driven in, the statue had not been facing the hotel entrance—it had been facing the gate."
 
-    # scene
-    jelf "杰尔夫忽然惊叫了一声，他指着酒店门口那条人鱼喷泉雕像说：“她刚刚在看我！她刚刚动了一下！”"
-    
-    bl "白柳顺着杰尔夫的视线看过去，那条人鱼雕像依旧垂眉敛目，看着水里，一动不动。"
+    "At the hotel entrance, two more mermaid statues stood on either side, holding scepters, with strangely twisted smiles at the corners of their mouths. They seemed to be posing as attendants welcoming them, but the expressions looked as if they were forced to stand there greeting travelers."
 
-    andre "安德烈被杰尔夫叫得吓了一跳，恶狠狠地揍了杰尔夫一拳：“操！哪里动了！根本就没动！你要是在这样一惊一乍我把你声带给你扯出来，这样我看你还叫不叫！”"
+    "When they entered the hotel, they found even more mermaid statues inside, big and small. Behind the reception desk stood a life-sized mermaid statue holding money, as if collecting payments."
 
-    jelf "杰尔夫捂着自己被打了一拳的头，有些害怕地看了安德烈一眼，把自己蜷缩成一团，低声自言自语：“她动了的，她真的动了的……”"
+    "Just as the driver said, mermaid statues seemed to be Siren Town’s specialty, visible everywhere. But this was excessive. From the mermaid-shaped floor lamps to the mermaid-carved pen holders at the front desk, this wasn’t merely ‘everywhere’—it was inseparable."
 
-    lucy "露西也被杰尔夫弄得有些发毛，她勉强笑了一下：“杰尔夫，你怎么那么肯定不是你眼花，而是这个人鱼雕像确定动了一下？这个人鱼雕像并没有眼珠，你怎么知道她在看你？”"
+    "And all of these mermaid statues had one thing in common: Bai Liu found that no matter where he stood inside, the statues placed around always gave him the feeling of being stared at. But these statues had no eyeballs—normally, statues without pupils couldn’t make one feel watched. Yet Bai Liu felt exactly that."
 
-    "这是一尊乳白色的大理石人鱼雕像，虽然雕刻了眼睛但是并没有黑色的眼珠，它整个眼睛都是纯白的，就好像什么有眼无珠的死寂生灵一般矗立在酒店门口。"
+    "So many densely placed marble mermaid statues staring at you was deeply unsettling. Even Andre, who had been loudly mocking Bai Liu as a coward, got goosebumps the moment he entered. He rubbed his arms. Jelf trembled behind Andre, as if too scared to even care about being beaten by him."
 
-    jelf "“你们没发现吗？”杰尔夫声音越来越低，还有些颤，“无论我们的车开到什么地方，我们的车都是被这个雕像直视着的，她的眼睛肯定在动…”"
-
-    lucy "“这个啊…我还以为什么呢..”露西明显松了一口气，终于舒心地笑出来，“就和那个《蒙拉丽莎的微笑》的画像是一样的吧？无论从什么角度都以为画像上的人在看自己。”"
-
-    bl "“不是，这种无论什么角度画像上的人都在看自己的情况智能二维平面产生，三维是无法产生的，也就是雕像是不可能出现这种情况的。”白柳很冷静地反驳了露西，“杰尔夫说的是对的，这个雕像的确眼神就一直盯着我们动。”"
-
-    "和那些镇民是一样的，一进来就开始不断盯着他们，就好像是在看什么进入他们狩猎范围的猎物一样。"
-
-    "这东西应该是个什么怪物。"
-
-    board "在他这个想法刚刚落下，白柳胸前的硬币突兀地震动了一下，弹出一个全新的面板，游戏面板变成一本厚重古旧好像是中世纪的书籍般，在白柳面前缓缓翻开。"
-
-    board "【恭喜玩家发现第一个游戏怪物，解锁怪物书――《塞壬小镇》特辑（1/4）】"
-
-    # 书页上出现一张照片，人鱼雕塑苍白的脸浸泡在幽深的海水中露出半张脸，没有雕刻眼珠的眼睛看着照片外，无声的注视着白柳，似乎要从照片中爬出来。
-
-    board "【怪物名称：人鱼雕塑（蛹状态）】\n【攻击值：？？？（未知未解锁，战斗后解锁）】\n【攻击方式：？？（未探索）】\n【弱点：？？（未探索）】"
-
-    "那些问号的地方都是像是被湿濡了的墨迹和污渍，看不清具体字迹，后面飘浮着荧光字体的解释。"
-
-    board "弱点下面有一行说明文字：\n【注：探索补全完该怪物书页信息可以获得相应的积分奖励和特殊奖励，集齐一个游戏副本的所有怪物书页，可以带走该游戏副本中某种怪物的最珍贵的东西】"
-
-    "《塞壬小镇》的怪物书有四页，后面的书页白柳就翻不动了，显示未解锁，应该是其他的游戏副本里的怪物。"
-
-    "但是看这个探索条件，甚至还有战斗，这完全就是鼓励玩家去作死挑衅怪物啊….."
-
-    lucy "露西有些慌张地抱住白柳的手：“…她真的在动吗？！”"
-
-    andre "“怎么可能！”安德烈似乎也被白柳振振有词的说辞感染了，他的脸上出现一瞬恐惧的神情，但很快被压了下去，对着白柳嘲讽道，“白柳，你个胆小鬼要是不愿意证明对露西的爱，贪生怕死编造这些理由想要逃跑，你就跑吧！回去之后你就自动放弃露西，然后跪下舔~我皮鞋上的尿！”"
-
-    driver "司机神色奇怪的动了一下，但最后状若平常地调笑道：“天色太晚了，你们看错了吧？哪有什么会动的雕像啊，要真有，我们镇子早就保护起来用来做观光景点了！那可是可以挣一大笔钱呢！人鱼雕像只是我们城镇的特色而已，到处都有的，没什么特别的。”"
-
-    driver "“到了，你们下车吧，今晚好好休息一晚，明早起来好好游玩吧。”司机打开车门，送他们下车。"
-
-    "白柳回头看了一眼那个喷泉中人鱼雕像，远远望去，那尊雕像依旧是正面对着他们的，头温顺地低着，看着水面里，似乎并没有注视他们。"
-
-    "但白柳清晰地记得，他们的车刚刚开进来的时候，这尊人鱼雕像的正面不是朝向酒店门口的，而是朝向入口的。"
-
-    "酒店门口也一左一右摆放了两尊人鱼雕像，手上拿着权杖，嘴角带着奇异扭曲的微笑，似乎是在扮做侍者欢迎他们的样子，但那神情仿佛被迫立在这里欢迎旅客一般。"
-
-    "等他们走进酒店之后，更是发现里面更是到处都摆着大大小小的人鱼雕像，就连收银台背后都有一尊等身的人鱼雕像，手里还拿着钱，似乎在收银的样子。"
-
-    "就像是司机说的一样，人鱼雕像似乎是塞壬镇的特色，随处可见，但这也太多了点，从落地灯的人鱼雕像装潢到前台手边的人鱼雕刻笔筒，这已经不是随处可见了，而是密不可分了。"
-
-    "而这些人鱼雕像都有一个特点，白柳发现自己无论走到屋内的什么角落里，这些摆放在不同地方的人鱼雕像都会给他直视的感觉，但这些人鱼雕像都没有眼珠子，按理来说没有瞳仁的雕像很难给人它在凝视你的感觉，但白柳就是有这种感觉。"
-
-    "如此数量繁多，摆放密集的人鱼大理石雕像盯着你，实在是让人感到不适，就算是一直吼着讥讽白柳是胆小鬼的安德烈进来之后都起了一身鸡皮疙瘩，搓了搓胳膊，杰尔夫更是瑟瑟发抖地躲在安德烈的后面，似乎都不怕安德烈打他了。"
-
-    lucy "露西小鸟依…大鸟依人地挽着白柳的胳膊，一张娇艳如玫瑰的脸庞泛着惨白的颜色，似乎也被这诡异的酒店装饰吓到了。"
+    lucy "Lucy clung tightly to Bai Liu’s arm like a frightened bird, her rose-like face drained pale, clearly terrified by the eerie hotel décor."
 
     # frontdesk
 
-    bl "而白柳神色自若地和前台沟通：“你好，我姓白，我之前有预定酒店。”"
+    scene bg 1 5
 
-    fd "前台是个肤色惨白得像大理石一样的年轻人，下/身穿着及地的苏格兰长裙，走起来一顿一顿的，似乎有些行动不便，这个年轻人静立不动的时候，甚至让人分不清他是雕像还是真人。"
+    bl "But Bai Liu calmly approached the front desk: “Hello, my surname is Bai, I have a reservation here.”"
 
-    lucy "白柳一行人靠过去，这人忽然动了起来的时候，甚至把露西吓了一跳，她以为是雕像动起来了，捂脸惊叫道：“哦我的上帝！你白得就像是一尊雕像！”"
+    fd "The front desk clerk was a young man, his skin as pale as marble. He wore a floor-length Scottish kilt, and walked with a stiff, halting gait as if disabled. When standing still, he was indistinguishable from a statue."
 
-    fd "“抱歉。”前台看着他们抱歉道，“我有白化病，吓到你们了不好意思，白先生是吗？您一周前预定了四个房间，预定了一周的时间，费用以及付了，房卡在这里，祝您□□愉快。”"
+    lucy "As Bai Liu’s group approached, the man suddenly moved, startling Lucy into thinking a statue had come alive. She covered her face and shrieked: “Oh my God! You’re as pale as a statue!”"
 
-    "白柳接过房卡，他看到四个房间的时候，其实是松了一口气的。"
+    fd "“Apologies.” The front desk clerk bowed slightly. “I have albinism. Sorry for scaring you. Mr. Bai, correct? A week ago you booked four rooms for one week. The fees are already paid. Here are your room cards. Wishing you□□ a pleasant stay.”"
 
-    "他不太想和让自己【没有成功】的露西女士睡一间房，露西似乎也明白了这一点，这位刚刚还受到惊吓的女人很快就恢复了，她用一种【哦！宝贝！你可真是太害羞了！】的眼神调侃地看着白柳，被白柳面色不改地忽视过去了。"
+    "Bai Liu accepted the room cards. Seeing four separate rooms relieved him a little."
+
+    "He really didn’t want to share a room with Miss Lucy, who hadn’t ‘succeeded’ with him. Lucy seemed to realize this as well. Though she’d just been frightened, she quickly recovered, looking at Bai Liu with a teasing gaze as if saying: Oh! Baby! You’re just too shy! Bai Liu, face unchanged, ignored her completely."
 
     menu:
-        "“我想问一下，你们这个酒店里，怎么这么多人鱼雕像？”":
-            bl "“我想问一下，你们这个酒店里，怎么这么多人鱼雕像？”"
+        "“I’d like to ask, why are there so many mermaid statues in this hotel?”":
+            bl "“I’d like to ask, why are there so many mermaid statues in this hotel?”"
 
-            fd "前台语调平缓地回答：“先生，人鱼给了我们一切，塞壬小镇本来一无所有，自从打捞上人鱼的尸骸，来这里的旅游人越来越多了，我们获得了金钱，拥有了一切，所以我们很感激人鱼，在这里，家家户户都有很多人鱼雕像，这对于我们来说就像是护身符一样的存在。”"
+            fd "The receptionist answered calmly: “Sir, the mermaids gave us everything. Siren Town originally had nothing, but ever since we salvaged a mermaid’s corpse, more and more tourists have come here. We gained money, gained everything, so we’re very grateful to the mermaids. Here, every household has many mermaid statues. To us, they are like protective charms.”"
 
-            bl "白柳指了指前台身后的人鱼雕像：“你们人鱼雕像的类型，也很丰富，各种各样的都有，你背后那个，就和你长得一模一样的，似乎和其他雕像的材质不太一样。”"
+            bl "Bai Liu pointed at the mermaid statue behind the receptionist: “Your mermaid statues come in many forms, all sorts of varieties. The one behind you looks exactly like you, and its material seems different from the other statues.”"
 
-            "其实不怪露西分不清这人和雕像，这个前台背后那个人鱼雕像和前台的面貌如出一辙，甚至表情还更生动痛苦，甚至有些狰狞了。"
+            "It wasn’t Lucy’s fault for failing to tell the person and the statue apart. The mermaid statue behind the receptionist looked identical to them in appearance, but with an even more vivid, pained, and somewhat ferocious expression."
 
-            "这个人鱼雕像的眼睛直直瞪视着站在它前面的前台，无论前台去什么地方都不移开视线，好似要从雕像里张牙舞爪地跑出来把这个长得和自己一模一样的前台撕碎吃掉一般，看得人不寒而栗，但是材质看起来却更脆薄，不像是其他人鱼雕像那么厚重，看着有些破旧了。"
+            "The eyes of this mermaid statue stared straight at the receptionist standing before it, never shifting no matter where the receptionist went. It was as if the statue was about to claw its way out and tear apart the receptionist—its doppelgänger—limb by limb. The sight sent chills down one’s spine. Yet the material looked thinner and more brittle, unlike the other statues that were heavy and solid, and it appeared rather worn-down."
 
-            fd "“是的先生。”前台抬起眼眸直视白柳，“背后这个人鱼雕像是我的护身符，我们会把人鱼雕刻成和我们的样子，当灾难来临的时候，这些人鱼雕塑护身符就会被魔鬼错当成我们，先我们一步帮我们承担风险了。”"
+            fd "“Yes, sir.” The receptionist raised their eyes to meet Bai Liu’s gaze. “The mermaid statue behind me is my protective charm. We carve mermaids in our own likeness. When disaster strikes, these mermaid charm statues will be mistaken for us by the devil, taking our place and bearing the danger first.”"
 
-            "白柳觉得有点意思，这个【护身符雕像】明显是个和其他人鱼雕像不同的东西。"
+            "Bai Liu found this interesting. This 【protective charm statue】 was clearly something different from the other mermaid statues."
 
-            board "【玩家获得新认知――《塞壬小镇怪物书》人鱼雕像面板刷新】\n【怪物名称：人鱼雕像（蛹状态），护身符雕像（茧状态）】"
+            board "【Player has gained new knowledge ― 『Siren Town Monster Book』 Mermaid Statue panel refreshed】\n【Monster Name: Mermaid Statue (Pupa State), Protective Charm Statue (Cocoon State)】"
 
-            "蛹和茧？这个名为【人鱼雕像】的怪物还有两种不同的状态？"
+            "Pupa and Cocoon? This monster called 【Mermaid Statue】 actually has two different states?"
 
-            bl "白柳缓慢地思量，蛹是成虫还没破壳的状态，破茧成蝶，茧是成虫成功孵化之后的状态，也可以说是留下的壳子，保护自己的外壳，和这个前台说的，抵御攻击的外壳的说法不谋而合…."
+            bl "Bai Liu slowly pondered. A pupa is the state before an insect breaks out of its shell. Breaking the cocoon, it becomes a butterfly. A cocoon is what’s left after the insect successfully hatches—an outer shell of protection. This aligned with what the receptionist said, a shell that shields one from harm…."
 
-            "估计这个人鱼雕像还有【虫】和【蝶】状态，这两种状态白柳感觉上应该比【蛹】和【茧】的攻击性要强，目前看来，【蛹】和【茧】状态的人鱼雕像没有主动攻击人的意向，不过也有可能是【攻击】的方式是白柳意识不到的那种，比如精神污染之类的，他觉得满大厅的人鱼雕像一直盯着玩家，就挺精神污染的。"
+            "It’s likely that these mermaid statues also have 【Insect】 and 【Butterfly】 states. Bai Liu felt those should be more aggressive than 【Pupa】 and 【Cocoon】. For now, 【Pupa】 and 【Cocoon】 state mermaid statues didn’t seem to actively attack people, but perhaps their method of 【attack】 was something Bai Liu couldn’t perceive—like mental pollution. He already thought that having a hall full of mermaid statues staring at the players was quite mentally unsettling."
 
             jump third
-        "分发了房卡":
+        "Room cards distributed":
             jump third
 
 label third:
-    lucy "白柳分发了房卡，露西缠缠~绵绵地想要和他睡一间屋子，被白柳以【我还没有为了你证明自己的勇敢，不配真的拥有你！】的理由打发了，露西感动不已地回去了，走之前还很火辣地准备和白柳接吻，被愤怒的安德烈阻止了。"
+    lucy "Bai Liu handed out the room cards. Lucy clung to him, wanting to stay in the same room as him. But Bai Liu brushed her off with the excuse: 【I haven’t yet proven my courage for you. I don’t deserve to truly have you!】. Lucy was deeply moved and went back, but before leaving, she even leaned in for a passionate kiss with Bai Liu, which was stopped by an angry Andre."
 
-    bl "感谢安德烈！希望安德烈今晚不要出事！\n白柳发自内心地希望安德烈能多活一会儿，不然他还真不好招架露西。"
+    bl "Thanks to Andre! I hope nothing happens to Andre tonight!\nBai Liu sincerely wished Andre could live a little longer, otherwise he really wouldn’t know how to deal with Lucy."
 
     # room
 
-    bl "白柳用房卡刷开了自己的房间，他一打开之后就顿住了进去的脚步。"
+    bl "Bai Liu swiped his room card to open his room. The moment the door opened, his steps froze."
 
-    "白柳扮演的这个npc有钱，订的是比较好的房间，房间内的摆件精美细致，但屋内从台灯造型到床头柜上的雕塑，全是人鱼，白柳刷开一进去，这些白森森的人鱼雕塑的眼珠子好似微不可查地移动了一下，看向了白柳。"
+    "The NPC Bai Liu was playing had money, so he booked a better room. The furnishings inside were exquisite and refined, but everything—from the lamp design to the sculptures on the nightstand—was mermaid-themed. As soon as Bai Liu entered, the pale-eyed mermaid sculptures seemed to subtly shift their gaze toward him."
 
-    board "【激活主线任务：玩家白柳在屋内安全渡过今晚，存活到明天，并且不被孵化――任务完成奖励：20积分】"
+    board "【Main Quest Activated: Player Bai Liu must safely survive the night in the room, live until tomorrow, and avoid being hatched――Reward for completion: 20 points】"
 
-    "系统给白柳发了第一个任务，但白柳的关注点反而不在任务上，他看着【避免被孵化】几个字陷入了沉思。"
+    "The system gave Bai Liu his first quest, but his focus wasn’t on the quest. Instead, he stared at the words 【avoid being hatched】 and fell into thought."
 
-    "……孵化？\n 啧，那群雕塑可以孵化他们吗？"
+    "…Hatched?\nTsk, could those sculptures hatch them?"
 
-    "白柳默默记下，他一转身他就看到床的对面立着一个等人高的人鱼雕塑。"
+    "Bai Liu quietly made a note. When he turned around, he saw a life-sized mermaid statue standing opposite the bed."
 
-    "这是白柳看到的，屋内最大的人鱼雕塑了，也是唯一一个没有正眼看他的雕塑。"
+    "This was the largest mermaid sculpture in the room, and also the only one that wasn’t looking directly at him."
 
-    mermaid "这人鱼雕塑美轮美奂，神情哀切，手上捧着一面一人高的光洁镜子，而人鱼雕塑的优美的双手就是支撑这面穿衣镜子的支架。"
+    mermaid "The mermaid statue was stunningly beautiful, with a sorrowful expression. In its hands, it held a tall, polished mirror, its elegant arms forming the frame that supported this full-length dressing mirror."
 
-    mermaid "这也是全房间唯一一个没有看向白柳的人鱼雕塑，它悲伤地看着镜子内，而白柳倒映子镜中，它双手环抱着镜面，就像是环抱这镜子里的白柳，这让白柳稍微有点不舒服，人鱼雕塑眼神落在镜面上，眉心内收，眼角低垂，鱼尾无力地摊平在地面上，就好像在为镜中的人哭泣一般，表情逼真又哀悯，白柳看着镜子，里面的【自己】对着镜子外的白柳，露出了一个雕塑般阴森森的微笑。"
+    mermaid "It was also the only statue in the room not staring at Bai Liu. Instead, it gazed sorrowfully into the mirror. Bai Liu’s reflection appeared within it. The statue’s arms wrapped around the mirror as if embracing the Bai Liu inside it. This made Bai Liu feel a little uneasy. The mermaid statue’s eyes fixed on the mirror, its brows knit, its gaze downcast, its fish tail limp on the ground, as though weeping for the reflection. Its expression was lifelike and mournful. But when Bai Liu looked at the mirror, his 【reflection】 inside showed a chilling, statue-like smile at him."
 
-    bl "白柳不为所动地用白布盖上了镜子。"
+    bl "Unmoved, Bai Liu covered the mirror with a white cloth."
 
-    "这种程度的恐怖画面对白柳是无效的，他现实世界是做恐怖游戏的，长期一个人熬夜到两三。点构思各种恐怖画面，这种镜子中的人对着你阴笑的常规恐怖场景白柳已经做到快麻木了，不会有任何感觉。"
+    "Such horror scenes had no effect on Bai Liu. In the real world, he worked on horror games, often staying up alone until two or three in the morning designing all sorts of terrifying imagery. This cliché scene of a reflection grinning eerily back at you from a mirror barely fazed him anymore."
 
-    "看来之前杰尔夫说的那些直接在酒店里悄无声息失踪，一直都没有找到尸骸的游客，估计就是被这些人鱼雕塑给【孵化】了。"
+    "It seemed that the tourists Jelph mentioned earlier, the ones who mysteriously disappeared without a trace in the hotel and whose bodies were never found, were probably 【hatched】 by these mermaid sculptures."
 
-    bl "保守谨慎起见，白柳把所有的人鱼雕塑用酒店房间内的床单白布蒙住了，包括那面巨大的镜子，用来遮挡那诡异又无处不在的视线，虽然不一定有用，但聊胜于无，最重要的是这么多人鱼雕塑看着白柳，白柳也睡不着。"
+    bl "Out of caution, Bai Liu covered all the mermaid statues in the room with the hotel bedsheets, including the giant mirror, to block out those eerie, omnipresent gazes. It might not be useful, but it was better than nothing. More importantly, with so many statues staring at him, Bai Liu wouldn’t be able to sleep otherwise."
 
-    "他在遮挡镜子的时候，触摸到了人鱼雕像的鱼尾，鱼尾上的触感并不是光洁柔滑的大理石触感，而是黏腻湿滑如海鱼般的触感，白柳甚至感觉他手下的雕塑上鱼尾上的鳞片轻轻张合了一下。"
+    "When covering the mirror, he touched the mermaid statue’s tail. The texture wasn’t the smooth, cold feel of marble—it was sticky and slick, like the flesh of a sea fish. Bai Liu even felt the scales under his hand lightly shift and close again."
 
-    bl "白柳顿了顿，他触摸了雕像之后闻了闻，能闻到他的手指地残留了鱼腥气，但白柳凑近人鱼雕像身上嗅闻的时候，却只闻到酒店内房间的熏香，并没有闻到这个腥气味道。"
+    bl "Bai Liu paused. After touching the statue, he smelled his fingers and noticed a faint fishy odor lingering there. But when he leaned closer to sniff the mermaid statue itself, all he smelled was the incense of the hotel room—no fishy smell at all."
 
-    bl "可能是车上带下来的味道….\n …..更有可能是白柳自己散发出了那种鱼腥味，联想到那个人鱼雕塑可以【孵化】游客，白柳皱了皱眉，感觉不太好。"
+    bl "Maybe the smell came from the bus ride…\n…Or more likely, it came from Bai Liu himself. Thinking of how the mermaid statues could 【hatch】 tourists, Bai Liu frowned, feeling uneasy."
 
-    "人鱼雕塑能孵化出什么东西呢？多半就是一些长相很恶心的鱼之类的吧，孵化这个词让白柳忍不住想起一部电影叫做《下水道的美人鱼》，他曾经为了取材看了两三遍，从此以后对人鱼这种生物再也没有任何旖旎幻想。"
+    "What could the mermaid statues hatch? Most likely some grotesque, fish-like creatures. The word ‘hatch’ reminded Bai Liu of a film called *Mermaid in the Sewer*. He had watched it two or three times for reference, and ever since, he never again had any romantic fantasies about mermaids."
 
-    bl "连着赶了小半夜的车，白柳早就疲乏了，他简单地清洗了一下自己，就躺在**沉沉地睡着了，他的体力值已经清零，急需在相对安全的的时候睡眠补充体力值。"
+    bl "After driving through most of the night, Bai Liu was already exhausted. He washed up briefly, lay down, and quickly fell into a deep sleep. His stamina had already hit zero, and he badly needed rest to recover."
 
-    # 半夜的时候，
+    # Midnight
 
-    "半夜的时候，白柳被一种很沉闷拖拽的奇异声响唤醒了。"
+    "At midnight, Bai Liu was awakened by a strange, heavy dragging sound."
 
-    mermaid "他一睁眼，就看到之前盖住那些人鱼雕像的白布不知道什么时候往下掉落，只剩将将一部分挂在这些雕像身上，这些雕像有些被白布遮挡得只露出一只眼睛，表情似乎也有细微的改变，从带着神性的悲悯变得不甘和怨毒，一动不动地看着白柳，似乎在责怪白柳用白布遮挡了它们。"
+    mermaid "When he opened his eyes, he saw that the white sheets covering the statues had somehow slipped off, leaving only bits still hanging on them. Some statues were only half-covered, their exposed eyes peeking out. Their expressions seemed to have subtly changed—from divine compassion to resentment and venom. They stared unblinkingly at Bai Liu, as if blaming him for covering them earlier."
 
-    "白柳也发现这些雕像，比他睡觉之前似乎是移动得离他更近了，像一群要聚在餐桌旁用餐的人举着手缓慢聚拢在他的床边。"
+    "Bai Liu also noticed that the statues seemed closer than before he fell asleep. They were slowly gathering around his bed, arms raised as though converging for a feast at the dining table."
 
-    bl "尤其是那个捧着巨大镜子的穿衣镜人鱼雕像，白柳迷迷糊糊一醒来，就看到自己的脚已经快贴到镜子了，这面正对着床的巨大镜子已经移动到贴着床了，白柳缩脚一坐起，就看到了倒映在镜子中的自己。"
+    bl "Especially the life-sized mermaid statue with the giant mirror. When Bai Liu groggily woke up, he saw that his feet were almost touching the mirror. The enormous mirror, originally across the room, was now pressed right against his bed. When Bai Liu pulled back his legs and sat up, he saw his reflection inside the mirror."
 
-    "镜子里的【白柳】皮肤苍白如岩石，眼睛里没有黑色的眼珠，眼睛周围是大理石的蜘蛛网状花斑纹路，他对着镜子外的露出一个嘴角僵直的笑，但一晃眼，好像刚刚又是白柳看错一般，变成了白柳正常的镜像。"
+    "The 【Bai Liu】 in the mirror had skin pale as stone, eyes without pupils, and spiderweb-like marble veins spreading from the corners. He smiled stiffly at the real Bai Liu. But in the blink of an eye, it seemed as though Bai Liu had just imagined it—his reflection appeared normal again."
 
     menu:
-        "坐起，用白布把强硬地把这些人鱼雕像捆了起来":
-            bl "白柳静了静，他坐起，面不改色心不跳地用白布把强硬地把这些人鱼雕像捆了起来。"
+        "Sit up, and firmly tie these mermaid statues with white cloth":
+            bl "Bai Liu paused for a moment. He sat up and, without a change in expression or a quickening heartbeat, firmly tied these mermaid statues with white cloth."
 
-            bl "为了防止这些人鱼雕像挣脱，白柳还用了麻绳死死地扎了两圈，然后把小零件的人鱼雕像用白布一裹，扔进了衣柜里上好锁，大的雕像白柳推到了洗手间里，反锁上，动作干脆麻利地宛如一个熟练的绑架犯。"
+            bl "To prevent the mermaid statues from breaking free, Bai Liu also tied them twice tightly with rope. Then, he wrapped the smaller mermaid statues in white cloth and locked them inside the wardrobe, while he pushed the larger statues into the bathroom and locked the door behind him, his movements swift and efficient like that of a practiced kidnapper."
 
-            mermaid "这些东西似乎也受到一定的行动限制，白柳睡觉之前这些东西就没有移动，而且看起来还需要挣脱白布看到白柳才能朝着他移动，有些盖着的白布没有弄下来的小人鱼雕塑就在白布里到处乱窜，并没有朝着床边聚拢，而是四散逃开。"
+            mermaid "These things also seemed to be under certain movement restrictions. Before Bai Liu went to sleep, they hadn’t moved. And it appeared they needed to break free of the white cloth and see Bai Liu before they could approach him. Some of the smaller mermaid statues still wrapped in white cloth were wriggling around inside it, scattering in all directions rather than gathering by the bed."
 
-            bl "弄清楚这个，白柳当机立断地决定把这个限制放到最大。"
+            bl "Once he understood this, Bai Liu immediately decided to maximize this restriction."
 
-            "正当他做完这些，拍拍手准备睡觉的时候，白柳听到了他隔壁传来了一声门的开合声，和一阵蹑手蹑脚的脚步声。"
+            "Just as he finished and clapped his hands, ready to go to bed, Bai Liu heard the sound of a door opening and closing next door, followed by cautious, tiptoeing footsteps."
 
-            "白柳刚躺上床的动作一顿，他周围的房子都是他订下来的房间，他左右两边隔壁房间是安德烈和杰尔夫，为了保护（？）自己，白柳特意把露西安排到了离他最远的房间。"
+            "Bai Liu froze as he was just about to lie down. All the surrounding rooms had been booked by him. To his left and right were Andre and Jelf. To protect (?) himself, Bai Liu had deliberately arranged for Lucy to stay in the room farthest away from him."
 
             menu:
-                "爬起来，贴在了门上从猫眼看走廊上的场景":
-                    bl "门开合声是从左边传来的，左边是杰尔夫的房间，白柳从**爬起来，贴在了门上从猫眼看走廊上的场景，杰尔夫左右看了看，确认走廊上没有人之后，鬼鬼祟祟地从酒店的楼梯上走了下去。"
+                "Get up and press against the door to look through the peephole into the hallway":
+                    bl "The sound of the door came from the left. That was Jelf’s room. Bai Liu got up, pressed himself against the door, and looked through the peephole into the hallway. Jelf glanced left and right, confirmed no one was in the corridor, and then sneakily went down the hotel stairs."
 
-                    bl "白柳皱起了眉头，杰尔夫大半夜地不睡觉，去干什么？"
+                    bl "Bai Liu frowned. What was Jelf doing, sneaking out in the middle of the night instead of sleeping?"
 
-                    "他刚准备开门也跟着去看看，白柳就看到了杰尔夫原本关上的房间的门把手又开始缓慢转动，似乎还有什么人要跟着杰尔夫从他房间中出来。"
+                    "Just as he was about to open the door and follow, Bai Liu noticed the handle of Jelf’s supposedly closed room door slowly start to turn again, as if someone else was about to come out after Jelf."
 
-                    "酒店房间是一人一个。\n 杰尔夫的房间里只有他一个人，露西不可能大半夜地去杰尔夫房间，安德烈更是和杰尔夫关系不和，不可能半夜去找杰尔夫，白柳在自己房间里。\n那这个要从从杰尔夫房间里出来的人是谁？"
+                    "Each hotel room was for one person.\nJelf’s room should have only contained him. Lucy would never visit Jelf’s room in the middle of the night, and Andre didn’t get along with Jelf, so he would never go looking for him either. Bai Liu was in his own room.\nSo who—or what—was coming out of Jelf’s room?"
 
-                    bl "白柳心口一跳，他猛得意识到了什么，微微移开了一点和猫眼贴着的脸。"
+                    bl "Bai Liu’s heart skipped a beat. Realizing something, he slightly pulled his face away from the peephole."
 
-                    "从杰尔夫房间里出来的不是人！"
+                    "What came out of Jelf’s room was not a person!"
 
-                    "杰尔夫的门把手转动到卡啦一声，终于缓缓地从里打开了，白柳又听到了那种他在半梦半醒之间听到的沉闷拖拽的声音，就好像是有什么东西用膝盖跪在地上被人拖曳着走路发出的声音一般。"
+                    "With a click, Jelf’s door handle turned all the way, and the door slowly opened from the inside. Bai Liu once again heard that dull dragging sound he’d heard while half-asleep, like something being dragged along the ground while kneeling."
 
-                    "但白柳这次知道这声音是怎么发出的了。"
+                    "But this time, Bai Liu knew exactly how that sound was made."
 
-                    mermaid "一个等人高的人鱼雕像从杰尔夫的房间里出来了，它面目凝滞不动，丝毫表情都没有，因为没有眼珠而眼睛全白而显得死气沉沉，鱼尾在却在地面上，一蹭一蹭地在深夜空无一人的走廊上拖行，它雪白厚重的鱼尾在酒店结实老旧的红色地毯上拖曳着，全身上下保持着丝毫不动地向着楼梯前行，让白柳想起了僵尸这种只能靠着蹦跳前行的僵直鬼怪。"
+                    mermaid "A life-sized mermaid statue emerged from Jelf’s room. Its face was stiff and unmoving, with no expression at all. Its eyes were completely white without pupils, lifeless and dead. Its fishtail dragged along the ground, scraping forward inch by inch across the empty hotel corridor at night. The heavy, snow-white tail dragged across the old, sturdy red carpet, and its rigid, unmoving body kept advancing toward the stairs, reminding Bai Liu of zombies—those stiff corpses that could only hop forward."
 
-                    "…..这东西居然能自己跑出房间，还能开门…."
+                    "…This thing could actually leave the room on its own, and even open doors…"
 
-                    mermaid "这个从杰尔夫房间内拖拽着“走”出来的人鱼雕像走到楼梯口的时候，似乎是察觉到了什么，它脖子僵硬地扭转了一百八十度，头直接在肩膀上转了拧到后面，忽然转变了前行方向，面无表情地朝着白柳房间的方向过来了。"
+                    mermaid "When the mermaid statue that had crawled out of Jelf’s room reached the staircase, it seemed to sense something. Its neck twisted stiffly a full 180 degrees, its head turning completely around on its shoulders. Suddenly, it changed direction and began walking expressionlessly toward Bai Liu’s room."
 
                     menu:
-                        "一边呜呜呜地哭一边抱着耳朵蜷缩在震动的门边，手里颤抖地拿着一个木棍":
-                            bl "人鱼雕塑撞一下门他就大声哭着尖叫一下，但并没有任何人来救他"
+                        "Cry while curling up against the shaking door, clutching your ears, trembling as you hold a wooden stick":
+                            bl "Every time the mermaid statue rammed the door, he cried out and screamed loudly, but no one came to save him."
 
-                            "这个房间的门在摇晃了两下之后，停止了，外面的人鱼雕塑好像是离开了。"
+                            "After shaking a couple of times, the door stopped. The mermaid statue outside seemed to have left."
 
-                            bl "你擦了擦眼泪，劫后余生般松一口气吗，撑着门手软脚软地站起来。"
+                            bl "You wipe your tears away and breathe a sigh of relief like a survivor, leaning weakly against the door, your legs and arms trembling as you slowly stand up."
 
-                            mermaid "但他没发现的是，门上的猫眼还是白的，一只纯白的石眼透过猫眼盯着屋内的人。"
+                            mermaid "But what he didn’t notice was that the peephole on the door was still white—a pure white stone eye staring into the room from outside."
 
-                            "那个人鱼雕像根本没离开，它是假装离开看屋内有没有人，看见你站起，雕塑的脸上露出一个诡异又僵硬的微笑，它好像找到了自己的猎物般满足地笑着，门又被猛得撞了两下，轻而易举地被破开，还没反应过来的你惨叫着被压在了门下，人鱼雕塑拖着自己沉重的鱼尾游曳进入了屋内，它脸上的笑意透着奇异的纯洁和古怪的狰狞，张开双手缓缓伸向了被压在门下的你。"
+                            "The mermaid statue hadn’t left at all. It was only pretending, testing whether someone was inside. The moment it saw you stand up, its stiff face cracked into a strange, twisted smile—like a predator finding its prey. The door suddenly banged twice more and was easily broken open. Before you could react, you screamed as you were crushed beneath the door. The mermaid statue dragged its heavy tail into the room, its smile radiating an eerie purity mixed with grotesque ferocity, spreading its arms as it slowly reached toward you beneath the door."
 
-                            "你在被人鱼雕塑触碰到的一瞬间，好像被什么东西吮。吸大脑一般，眼球上翻，看起来像是在疯狂地抽~搐翻白眼，嘴边有白沫流出，四肢在缓慢蜷缩，双、腿并拢在地上抽、搐摇摆，宛如一条被泼了开水之后疯狂挣扎的鱼尾，皮肤变得僵硬苍白，玩家的眼睛周围出现白柳镜子中看到的那种灰黑色的大理石纹路，眼球也消失不见，只剩被纹路布满的眼白，嘴角僵直地上翘着。"
+                            "The instant the mermaid statue touched you, it felt like something was sucking your brain dry. Your eyes rolled back, your body convulsed violently, froth spilled from the corners of your mouth, and your limbs curled up and twitched. Your legs pressed together, shaking on the ground like a fish thrashing in boiling water. Your skin stiffened and turned pale. Around your eyes appeared those gray-black marble-like veins that Bai Liu had seen in the mirror. Your pupils vanished, leaving only white eyes covered in those veins, while your stiff mouth curled upward into a grotesque grin."
 
-                            jump bad_ending
-                        "飞快地在自己的房间门后蹲下用，迅速地白布盖住自己，只露出了一双眼睛。":
-                            bl "白柳心头一惊，他飞快地在自己的房间门后蹲下用，迅速地白布盖住自己，只露出了一双眼睛。"
+                        "He quickly crouched behind his own room door and used a white cloth to cover himself, leaving only a pair of eyes exposed.":
+                            bl "Bai Liu’s heart skipped a beat. He quickly crouched behind his own room door and used a white cloth to cover himself, leaving only a pair of eyes exposed."
 
-                            "白柳确定好门反锁好之后，缩在了门的右下角想看这东西到底想干什么，白柳很快就看到门上的猫眼变白了，还在不停转动。"
+                            "After Bai Liu made sure the door was locked from the inside, he curled up in the lower right corner of the door to see what this thing wanted to do. Bai Liu soon saw the peephole on the door turn white and keep rotating."
 
-                            mermaid "这东西在凑上来用眼睛看门里的人，那个不停转动的东西是雕塑的白色的眼珠，这东西正在透过猫眼搜寻查找房间内的人。"
+                            mermaid "This thing was approaching to look inside the door with its eyes. The continuously rotating object was the white eyeball of the sculpture. It was searching through the peephole for anyone inside the room."
 
-                            "白柳能听到大理石在门上碰撞发出的清脆响声，而门把手这个时候也动了两下，虽然门已经被反锁了，但门把手在门外的人鱼雕塑的大力拧动下，发出格拉格拉脆弱的金属断裂声，听起来很快就要被报废，然后被门外的人鱼雕塑强行破开进门了，就连门也开始摇晃了。"
+                            "Bai Liu could hear the crisp sound of marble hitting the door, and the doorknob moved twice. Although the door was locked from the inside, under the forceful twisting of the mermaid sculpture outside, the doorknob made a fragile metallic cracking sound, as if it was about to break, and then the mermaid sculpture forcibly broke through the door. Even the door began to shake."
 
-                            mermaid "这个东西似乎是想进来，它死白的眼睛在白柳的房间内搜寻了一圈，似乎是发现了房间里没有任何人，似乎是离开了白柳的门前，门把手也没动了，房间外变得寂静又悄无声息，对方好似离开了一般。"
+                            mermaid "It seemed like this thing wanted to come in. Its pale white eyes scanned Bai Liu’s room and, apparently finding no one, it seemed to leave Bai Liu’s door. The doorknob stopped moving, and the outside of the room became silent and still, as if it had gone away."
 
-                            bl "但白柳依旧屏住了呼吸，他记得这玩意儿移动的时候会发出那种很沉闷的响声，没有这声音就不对，这人鱼雕塑根本没走，多半还静静地守在他的门前。"
+                            bl "But Bai Liu still held his breath. He remembered that this thing made a dull noise when moving. Without that sound, something was wrong. The mermaid sculpture hadn’t left; it was probably still quietly guarding his door."
 
-                            mermaid "这东西是在诈他，诱导他出来，白柳想到，他斜眼看，发现本来恢复成地毯颜色的猫眼突然又变成了眼球凸出的白色。"
+                            mermaid "This thing was deceiving him, trying to lure him out. Bai Liu thought, and then glanced sideways, noticing that the peephole, which had returned to carpet color, suddenly turned white again with a protruding eyeball."
 
-                            "那个东西果然还在！"
+                            "That thing is definitely still there!"
 
-                            mermaid "这东西等了一会儿似乎并不死心，还是想进来，门把手猛得被扭曲成了一个突出破碎的形状，摇摇欲坠地要从门上滑落下来。"
+                            mermaid "After waiting a while, it seemed unwilling to give up and still wanted to come in. The doorknob was suddenly twisted into a protruding broken shape, wobbling as if it was about to fall from the door."
 
-                            "门外的人鱼雕塑要进来了！"
+                            "The mermaid sculpture outside the door is coming in!"
 
-                            bl "白柳的大脑飞速地转动着，他呼吸都变缓了。"
+                            bl "Bai Liu’s mind raced, and his breathing slowed."
 
-                            "游戏很明确地告诉了他，这些鬼物怪物有弱点的，玩家可以利用弱点从这些怪物的手中逃脱，所以目前破局的方法就是找到限制这玩意儿移动的弱点。"
+                            "The game clearly told him that these ghostly monsters had weaknesses. Players could use the weaknesses to escape from these monsters. So the current way to break the stalemate was to find the weakness that restricted this thing’s movement."
 
-                            bl "白柳闭上了眼睛回想今晚入住的整个过程。"
+                            bl "Bai Liu closed his eyes and recalled the entire process of checking in tonight."
 
-                            "只要是游戏，那就是有解的，无解的游戏是最垃圾的，白柳做了那么多年恐怖游戏，他无比确认一定有什么地方提示了他人鱼雕塑的弱点。"
+                            "As long as it’s a game, there must be a solution. A game without a solution is the worst. Bai Liu had played horror games for so many years and was certain that somewhere, there had to be a clue pointing to the mermaid sculpture’s weakness."
 
-                            bl "到底是什么呢…..\n白柳冷静无比地开始梳理他遇到人鱼雕塑的所有场景。"
+                            bl "What exactly was it….\nBai Liu calmly began to organize all the scenes where he had encountered the mermaid sculpture."
 
-                            bl "第一次是在酒店外面的喷泉，杰尔夫惊呼说看到人鱼雕塑动了，那种移动是无声无息的，跟在汽车后面在转动而已，那个人鱼雕塑没有直视他们，在看水里。"
+                            bl "The first time was outside the hotel fountain. Jeff exclaimed that he saw the mermaid sculpture move. The movement was silent, just like it was following the car. The sculpture didn’t look directly at them, only at the water."
 
-                            bl "第二次是在酒店大厅，数量巨大的各种人鱼雕塑，直视他们，没有移动。"
+                            bl "The second time was in the hotel lobby, with numerous mermaid sculptures. They looked directly at them but didn’t move."
 
-                            bl "第三次是在酒店房间内，除了那个巨大的人鱼雕塑在看镜子里，其余人鱼雕塑都直视了白柳，在白柳睡着之后就开始移动，镜子人鱼是移动最快的，但白柳醒来之后这些雕塑就不动了。"
+                            bl "The third time was inside the hotel room. Except for the giant mermaid sculpture looking in the mirror, the other mermaid sculptures all stared at Bai Liu. After Bai Liu fell asleep, they began to move. The mirror mermaid moved the fastest, but once Bai Liu woke up, those sculptures stopped moving."
 
-                            "但显然白柳保持清醒并不是什么限制人鱼雕塑移动的条件，因为门外的人鱼雕塑已经准备破门而入了。"
+                            "But clearly, Bai Liu staying awake wasn’t the condition to restrict the mermaid sculpture’s movement, because the mermaid sculpture outside the door was already preparing to break in."
 
-                            bl "游戏不会有不能破的局面，他身上一定有什么，可以限制人鱼雕塑移动的东西。"
+                            bl "There cannot be an unsolvable situation in the game. He must have something that can restrict the mermaid sculpture’s movement."
 
-                            bl "不是房间内的东西，不是酒店内的东西，一定是白柳带来的东西，因为酒店和房间的东西并不能限制人鱼雕塑的移动，之前这雕塑可以自由从杰尔夫房间内出入就可以证明这一点。"
+                            bl "It’s not something in the room, nor in the hotel. It must be something Bai Liu brought with him. The hotel and room items couldn’t restrict the mermaid sculpture’s movement, as proven by the fact that the sculpture could freely enter and exit Jeff’s room before."
 
-                            "到底是什么呢？"
+                            "What exactly is it?"
 
-                            bl "镜子…水…睡觉….直视！"
+                            bl "Mirror… water… sleep… direct gaze!"
 
-                            "白柳知道是什么了！"
+                            "Bai Liu knew what it was!"
 
-                            bl "白柳猛得站了起来，他拉开门双目直视人鱼雕塑。"
+                            bl "Bai Liu suddenly stood up, opened the door, and looked directly at the mermaid sculpture."
 
-                            mermaid "门外的雕塑已经近到从白柳的视角看过去，这个毫无生气的人鱼雕像的面目好似贴在白柳的鼻尖一般，它的手掌还放在白柳的门把手上，纯白无珠的眼睛在透过猫眼往右下角看着——那是白柳躲藏的位置。"
+                            mermaid "The sculpture outside the door had come so close that, from Bai Liu’s perspective, this lifeless mermaid statue’s face seemed pressed against his nose. Its palm was still on Bai Liu’s doorknob, and its pure white, pupil-less eyes were looking through the peephole at the lower right corner—that was where Bai Liu was hiding."
 
-                            "难怪这东西一定要进来，它应该是看到了藏在门背后右下角的白柳了。"
+                            "No wonder it wanted to come in. It should have seen Bai Liu hiding behind the door in the lower right corner."
 
-                            mermaid "它的行动停住了，它的鱼尾已经碰到了白柳的脚尖，在踏入白柳的房间的最后一刻，在白柳门前静止不动了。"
+                            mermaid "Its movement stopped. Its tail had touched Bai Liu’s toes, and just before stepping into Bai Liu’s room, it froze in front of the door."
 
-                            bl "白柳松了一口气，果然没错，让这玩意儿保持不动的弱点就是人眼直视。"
+                            bl "Bai Liu exhaled in relief. Sure enough, the weakness that made this thing stop moving was direct human gaze."
 
-                            "推断出【人眼】看到就会限制人鱼雕塑移动这个弱点其实是很简单的。"
+                            "Inferring the weakness—that being seen by human eyes would restrict the mermaid sculpture’s movement—was actually quite simple."
 
-                            "因为白柳睡觉之后，这些雕塑就开始移动了，而醒来之后，这些雕塑瞬间就停下了，他睡觉前后唯一有区别的，就是睁开了自己的双眼，那说明【人的视线】是可以限制人鱼雕塑的移动的。"
+                            "Because after Bai Liu fell asleep, the sculptures began to move, and after waking up, they instantly stopped. The only difference before and after sleep was that his eyes were open, which meant 【human gaze] could restrict the mermaid sculpture’s movement."
 
-                            "但这里有一个陷阱——那就是隔着镜像类物品看着这种东西，只会削弱部分人鱼雕塑的移动速度，必须要直视才能彻底停止人鱼雕塑的移动。"
+                            "But here was a trap: looking at the thing through reflective objects only partially slowed some sculptures. Only direct gaze could completely stop them."
 
-                            "因为在人眼直视下，还可以移动的雕塑还有两种，酒店门口的喷泉雕塑和房间内的镜子人鱼雕塑。"
+                            "Two sculptures could still move under direct human gaze: the fountain sculpture at the hotel entrance and the mirror mermaid sculpture in the room."
 
-                            "酒店门外喷泉池的人鱼雕塑看着水里，那么人就在隔着水【直视】人鱼雕塑，人鱼雕塑虽然被限制了，不能飞快地移动，还是可以缓慢移动甚至转动的，所以才会在门口缓慢地转动，而房间里的人鱼雕像中，镜子人鱼是移动的最快的，也是因为镜子人鱼看着镜子内，人隔着镜子【直视】雕塑，给出的限制力是有限的，所以镜子人鱼才跑得最快。"
+                            "The fountain sculpture at the hotel entrance looked into the water. So people were seeing it 【directly] through the water. The sculpture’s movement was restricted; it couldn’t move quickly, but could move slowly or rotate, which was why it rotated slowly at the door. The mirror mermaid in the room moved the fastest because it was looking into the mirror. The person’s gaze was indirect, so the restriction was limited, and that’s why it ran fastest."
 
-                            "而刚才的人鱼是隔着猫眼看白柳，所以是可以移动的，而白柳如果只是单单地隔着猫眼直视人鱼雕塑，虽然会有一定限制，但人鱼雕塑应该还是可以移动的。"
+                            "The mermaid just now was looking at Bai Liu through the peephole. So it could move. If Bai Liu only gazed at it through the peephole, it would impose some restriction, but the sculpture could still move."
 
-                            "这么近的距离，隔着猫眼绝对是不足以限制人鱼移动破门而入，如果让它进来了，玩家被压在门下，失去了【人眼直视】这个条件，玩家很快就会凉。"
+                            "At such a close distance, looking through the peephole is definitely insufficient to stop it from breaking the door. If it got in, the player would lose the 【human gaze] condition and quickly die."
 
-                            "但不得不说，在这种情况下，能有拉开门正视人鱼雕塑的新人玩家的确是极少数，大部分都慌了，就算是推断出【人眼直视】这个条件，也没有勇气去验证，只有白柳这个要钱不要命的，才有这种就算不能百分之百肯定自己的推论是对的，但依旧理不直气也壮的冷静。"
+                            "But in this situation, very few new players would dare to open the door and look directly at the mermaid sculpture. Most would panic. Even if they deduced the 【human gaze] condition, they wouldn’t have the courage to test it. Only Bai Liu, reckless with money and life, could calmly test his theory even without 100\% certainty."
 
-                            board "【《塞壬小镇怪物书》人鱼雕像面板刷新】\n【怪物名称：人鱼雕像（蛹状态），护身符雕像（茧状态）】\n【弱点：人眼直视（1/3）】\n【攻击方式：孵化】"
+                            board "【‘Monster Book of Siren Town’ Mermaid Statue Panel Refresh】\n【Monster Name: Mermaid Statue (Pupa State), Talisman Statue (Cocoon State)】\n【Weakness: Direct Human Gaze (1/3)】\n【Attack Method: Hatch】"
 
-                            mermaid "人鱼雕塑眼眸下垂，头稍稍往右下歪了一点，嘴角微微上扬带着一丝笑意，鱼尾优美，身躯洁白无瑕，姿态透着一种说不出的隐秘的美感和神性，一旦定格不动，身上那种让人脊背发凉的侵占欲就消失不见了，变成了一尊极具美学价值的人鱼雕塑，在海滨的午夜里，静默地矗立在异乡人的房门前。"
+                            mermaid "The mermaid sculpture’s eyes drooped slightly, head tilted slightly to the lower right, lips curling into a faint smile. Its tail was graceful, body pure white and flawless, posture exuding a secret beauty and divinity. Once frozen, the spine-chilling sense of possession disappeared, leaving a highly aesthetic mermaid sculpture silently standing in front of a stranger’s room at midnight on the seaside."
 
-                            board "【玩家白柳获得观看玩家充电3积分，解锁游戏商品铺子】\n【积分过低，无法购买任何物品，请玩家再接再厉！】\n【积分可以购买你想要的一切事物】。"
+                            board "【Player Bai Liu gained 3 Charging Points, unlocked Game Item Shop】\n【Points too low to purchase any item. Player, keep trying!】\n【Points can be used to buy anything you want】."
 
-                            "白柳关上商品店铺，和面前保持不动的人鱼雕塑面面相觑。\n现在这东西的确不动了，但白柳不可能整夜不睡和这东西对峙，而且经过这件事，白柳对这玩意儿的破坏力有了新的认识。"
+                            "Bai Liu closed the shop and stared at the motionless mermaid sculpture in front of him.\nNow it really didn’t move, but Bai Liu couldn’t confront it all night. After this, he had a new understanding of its destructive power."
 
-                            "他看向那个就快要从自己门上脱落的不锈钢把手。"
+                            "He looked at the stainless-steel doorknob that was about to fall off."
 
-                            "但从之前他房间里那些雕塑的表现来看，虽然这个东西有巨大的破坏力，但是似乎只能依靠眼神来定位，或者说，只对视觉系的东西敏感，一旦被白布遮盖就没办法找到白柳的位置了，就算是在同一个房间里也难以找到他。"
+                            "Judging by the behavior of the sculptures in his room, although this thing was highly destructive, it seemed only sensitive to vision. Once covered by a white cloth, it couldn’t locate Bai Liu, even in the same room."
 
-                            "换言之，人鱼雕塑似乎没有听觉嗅觉等感官。"
+                            "In other words, the mermaid sculpture seemed to have no auditory or olfactory senses."
 
-                            "不然白柳和这么多人鱼雕塑同在一个面积房间里，就算是听白柳的呼吸声也很容易定位找到白柳，然后把白柳的头像门把手一样拧下来，不需要费力扯开白布再来寻找他，就凭这个徒手拧断门把手的能力，也不会现在都还被关在厕所衣柜里出不来。"
+                            "Otherwise, with so many mermaid sculptures in the same room, it could easily locate Bai Liu by his breathing and twist his head off like a doorknob. Its ability to break a doorknob bare-handed would prevent it from being trapped in the closet all this time."
 
-                            bl "….真麻烦啊，数量还这么多，留着真是个包袱"
+                            bl "…So troublesome, and there are so many of them. Keeping them is really a burden."
 
-                            bl "他微微眯了眯眼睛，心里动了点恶念——现在他面前有一个一动不动任由他鱼肉的雕塑，他能不能对它做点试验，实验一下它的弱点到底是什么呢，比如用火烤用棒子敲把它弄死弄碎之类的…."
+                            bl "He squinted slightly, a mischievous thought forming—now he had a motionless sculpture before him. Could he experiment on it, test its weakness, maybe burn it or smash it…"
 
-                            board "【提示：玩家如果直接攻击该怪物，如果怪物不死，会导致怪物的仇恨值长期在玩家身上，会一直攻击玩家，降低玩家生存率】"
+                            board "【Tip: Directly attacking this monster may cause it to hold long-term hatred toward the player, constantly attacking and reducing survival rate】"
 
-                            bl "白柳深思地摸了摸下巴，他微笑起来，右边脸上露出一个人畜无害的小梨涡。"
+                            bl "Bai Liu thoughtfully stroked his chin, smiling with a harmless dimple on his right cheek."
 
-                            bl "“直接攻击它，会导致它记恨我，报复我是吧…”白柳自言自语，“那如果是它自己出事，就怪不了我了。”"
+                            bl "“Directly attacking it will make it hold a grudge and seek revenge, huh…” Bai Liu muttered. “If it gets into trouble by itself, it can’t blame me.”"
 
-                            bl "白柳故技重施，用床单包裹住人鱼雕塑然后用绳子扎好下面的敞口，然后他不怀好意地把这尊人鱼雕塑放到了酒店楼梯门口。"
+                            bl "Bai Liu reused his trick: he wrapped the mermaid sculpture with a bedsheet, tied the bottom opening with a rope, and maliciously placed it at the hotel staircase entrance."
 
-                            "人鱼雕塑在看不见的情况下，就会无头般到处走，白柳把人鱼雕塑放在这个地方，就是为了让这个雕塑主动掉下楼梯。"
+                            "If the mermaid sculpture cannot see, it walks headlessly. Bai Liu placed it there so it would fall down the stairs on its own."
 
-                            "有仇恨值的前提下，白柳不会主动敲碎这些雕塑，如果能直接敲碎还好，但如果敲碎不了，这很明显会给自己找麻烦。"
+                            "Given the hatred mechanic, Bai Liu wouldn’t smash these sculptures himself. If he could smash them directly, fine, but if not, it would cause trouble."
 
-                            "但数量如此繁多的人鱼雕像是个不小的隐患，白柳只有一双眼睛，如果是木头人那种模式，如果他360度无死角地被雕像包围，而人的双眼水平视角最多只有188度，白柳没办法后脑勺长眼睛看到所有人鱼雕塑，那他就必死无疑了。"
+                            "But so many mermaid sculptures were a huge hidden danger. Bai Liu only had two eyes. If surrounded 360° in wooden-man mode, and human eyes’ horizontal vision is at most 188°, he couldn’t see all the sculptures behind him. He would surely die."
 
-                            "白柳喜欢做性价比更高的事情，虽然游戏说利用弱点从怪物手中逃生就行了，但他想要知道能不能直接通过某种方式毁掉这些雕像，或者说，这些雕像是否存在其他致命弱点。"
+                            "Bai Liu liked cost-effective solutions. Although the game said using weaknesses to escape monsters was enough, he wanted to know if he could destroy them directly or if there were other lethal weaknesses."
 
-                            "他不做主动敲碎或者击打人鱼雕塑的人，风险太大，他冒不起。"
+                            "He wouldn’t risk smashing or attacking them himself."
 
-                            "但人鱼雕塑如果是因为自己视力不佳从楼梯上踩空掉下去，就和他无关了。"
+                            "But if a mermaid sculpture fell down the stairs due to poor eyesight, it wouldn’t be his problem."
 
-                            bl "白柳只是想做个小小的试验，验证这东西是否可以被砸碎，他退回了房间内，那个人鱼雕像果然不久之后就动了起来，白柳若有所思，其实他现在依旧是看着这个雕像的，但这个雕像被白布蒙住了头，不知道白柳看着他，所以就自己移动了起来。"
+                            bl "Bai Liu just wanted to test if it could be smashed. He retreated to his room, and sure enough, the sculpture began moving shortly after. Bai Liu observed thoughtfully. Although he was watching, the sculpture’s head was covered by a white cloth, unaware it was being observed, so it moved on its own."
 
-                            "这个证明，【人眼直视】只是一个客观条件，要人鱼雕像主观觉得自己被直视了，才能停止移动。"
+                            "This proves that 【direct human gaze] is only an objective condition. The mermaid sculpture must subjectively feel it is being watched to stop moving."
 
-                            "白柳房间里那么多雕塑，他没有办法一一直视，之前白柳一醒来还没来得及到处看，它们就主动停止了移动。"
+                            "With so many sculptures in his room, Bai Liu couldn’t keep staring. Previously, when he woke up, they stopped moving before he could look around."
 
-                            "所以，只要人鱼雕像【觉得】自己被直视，就会停止移动了。\n能自我意识到这个层面，这些东西果然都是活物，还是拥有一定智力的活物，虽然看起来智力程度并不高。"
+                            "So as long as a mermaid sculpture 【felt] it was being watched, it would stop.\nBeing aware at this level shows these things are alive, with a certain degree of intelligence, though not very high."
 
-                            mermaid "楼梯口的人鱼雕像挣扎了几下，从楼梯阶梯边一划动，就蒙着白布噼里啪啦地摔了下去，扑出了一声灰尘满天的巨大响动，白柳站在楼梯上居高临下地看过去，拍拍手上的灰，有些遗憾地啧了一声，他看着下面毫发无损只是略微蜷缩了身体的人鱼雕像，大理石上连个裂纹都没有。"
+                            mermaid "The mermaid sculpture at the staircase struggled, slid along the edge, and fell covered in a white cloth with a crashing, dust-filled noise. Bai Liu looked down from above, brushed dust off his hands, clicked his tongue in slight disappointment, and saw the sculpture below, unharmed, only slightly curled."
 
-                            bl "…果然摔不坏啊……物理攻击无效啊…."
+                            bl "…As expected, it can’t be broken… physical attacks are ineffective…"
 
-                            bl "白柳回到了自己的房间, 为了安全起见，白柳用白布蒙上了自己房间的猫眼，避免人鱼窥探，又用一个柜子抵住了门，希望要是有人鱼破门而入的时候能制造点声音把他弄醒。"
+                            bl "Bai Liu returned to his room. For safety, he covered the peephole with a white cloth to prevent the mermaid from spying and propped a cabinet against the door, hoping that if a mermaid broke in, it would make noise to wake him."
 
-                            bl "他的体力值也要清空了，白柳做完这一切之后，他就躺在床。上，阖上双眸，一夜无梦。"
+                            bl "His stamina was also drained. After all this, Bai Liu lay on the bed, closed his eyes, and slept through the night without dreams."  
 
                             jump true_ending
 
-                "保命，继续睡":
-                    "晚上有惊无险的度过去了。"
+                "Save yourself, keep sleeping":
+                    "The night passed with scares but no real danger."
 
-                    board "【玩家夜里收到美人鱼雕塑影响，精神值减低20】"
+                    board "【Player's mental points decreased by 20 due to the influence of the mermaid statue at night】"
 
                     jump normal_ending
-        "不管，去睡觉":
-            "夜里，美人鱼雕像缓缓向你靠近，但你未能成功醒来。"
+        "Doesn't matter, go to sleep":
+            "At night, the mermaid statue slowly approached you, but you failed to wake up in time."
 
             jump bad_ending
                     
 
-
 label normal_ending:
-    "你虽然受了点伤但是成功挺过了这一夜。"
+    "Although you were slightly injured, you successfully made it through the night."
 
-    "恭喜你，normal ending."
+    "Congratulations, normal ending."
 
     return
 
 label bad_ending:
-    board "【玩家精神值清0，被怪物人鱼雕塑彻底异化，游戏通关失败】"
+    board "【Player's mental points dropped to 0, completely mutated by the monstrous mermaid statue, game failed】"
 
     "Bad ending"
     return
 
 label true_ending:
-    "恭喜你，用你的智慧几乎零损耗的度过了这一夜。"
+    "Congratulations, you used your wisdom to get through the night with almost zero loss."
 
-    "很不错，true ending."
+    "Well done, true ending."
 
     return
 
